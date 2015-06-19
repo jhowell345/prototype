@@ -8,7 +8,7 @@
     <title>Twitter Bootstrap Exercise</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -16,6 +16,8 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </head>
 
   <body>
@@ -35,7 +37,8 @@
       <!-- Trigger the modal with a button [QUOTES] -->
       <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal1">
         <span class="glyphicon glyphicon-plus-sign"></span>Insert Share Lines or Quote
-      </button>
+      </button><br>
+
 
       <!-- Modal -->
       <div id="myModal1" class="modal" role="dialog">
@@ -44,9 +47,24 @@
           <!-- Modal content -->
           <div class="modal-content">
             <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal">&times;</button>
               <h4 class="modal-title" background color="grey">Insert Share Lines or Quote</h4>
             </div>
+            <p>Share link type</p>
+
+            <!-- Dropdown Menu -->
+            <div class="dropdown">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Dropdown
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#">Image</a></li>
+                <li><a href="#">Text</a></li>
+                <li><a href="#">Social media</a></li>
+              </ul>
+            </div>
+
+            <hr>
             <div class="modal-body">
               <p>Some text in the modal.</p>
             </div>
@@ -61,7 +79,7 @@
       <!-- Trigger the modal with a button [Instagram]-->
       <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal2">
         <span class="glyphicon glyphicon-plus-sign"></span>Insert Instagram
-      </button>
+      </button><br>
       <!-- Modal -->
       <div id="myModal2" class="modal" role="dialog">
         <div class="modal-dialog">
@@ -86,7 +104,7 @@
       <!-- Trigger the modal with a button [Countdown] -->
       <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal3">
         <span class="glyphicon glyphicon-plus-sign"></span>Insert Countdown
-      </button>
+      </button><br>
       <!-- Modal -->
         <div id="myModal3" class="modal" role="dialog">
           <div class="modal-dialog">
