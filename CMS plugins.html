@@ -34,9 +34,62 @@
     <!-- RIGHT RAIL -->
     <div class="col-md-6 right-rail">
 
-      <!-- Trigger the modal with a button [QUOTES] -->
+      <!-- Trigger the modal with a button [QUOTES 1] -->
+      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal4">
+        <span class="glyphicon glyphicon-plus-sign"></span>Insert Share Lines or Quote I
+      </button><br>
+
+      <!-- Modal -->
+      <div id="myModal4" class="modal" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" style="background-color:lightgrey">Insert Share Lines or Quote</h4>
+            </div>
+            <h5><b>Share link type</b></h5>
+
+            <!-- Dropdown menu -->
+            <div class="dropdown">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              Quote
+              <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <li><a href="#">Image</a></li>
+                <li><a href="#">Text</a></li>
+                <li><a href="#">Social</a></li>
+              </ul>
+            </div>
+
+            <hr>
+
+            <p style="background-color:lightblue">NOTE: Max 150 characters for Author & Author Description, 250 characters for Quote. All text fields required.</p>
+
+            <h5><b>Author</b></h5>
+            <form>
+              <input type="text" name="author" placeholder="Author">
+            </form>
+            <h5><b>Author Description</b></h5>
+            <form>
+              <input type="text" name="authordescription" placeholder="Author Description">
+            </form>
+
+            <div class="form-group">
+              <label for="comment">Quote (max 250 char)</label>
+              <textarea class="form-control" rows="5" id="comment" placeholder="Type/paste Quote here!"></textarea>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Trigger the modal with a button [QUOTES 2] -->
       <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal1">
-        <span class="glyphicon glyphicon-plus-sign"></span>Insert Share Lines or Quote
+        <span class="glyphicon glyphicon-plus-sign"></span>Insert Share Lines or Quote II
       </button><br>
 
 
