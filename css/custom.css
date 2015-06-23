@@ -14,3 +14,8 @@
 	width: 25%;
 	border:2px dotted blue;
 }
+
+.textarea {
+	width: 730px;
+	height: 100px;
+}
