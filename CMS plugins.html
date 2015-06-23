@@ -21,7 +21,7 @@
   </head>
 
   <body>
-    <div class="row">
+    <div class="row" style="margin:100px auto; padding:30px; border: 2px; width:100%">
 
     <!-- LEFT RAIL -->
     <div class="col-md-6 left-rail">
@@ -72,13 +72,13 @@
               <h5><b>Author</b></h5>
               <form>
                 <div>
-                  <input type="text" name="author" placeholder="Author">
+                  <input type="text" name="author" placeholder="Author" size="100" maxlength="150">
                 </div>
               </form>
               <h5><b>Author Description</b></h5>
               <form>
                 <div>
-                  <input type="text" name="authordescription" placeholder="Author Description">
+                  <input type="text" name="authordescription" placeholder="Author Description" size="100" maxlength="150">
                 </div>
               </form>
 
@@ -141,7 +141,7 @@
                 
                 <h5>Share Line 1</h5>
                 <form>
-                  <input type="text" name="shareline" placeholder="Type/paste Share Line here!" maxlength="150">
+                  <input type="text" name="shareline" placeholder="Type/paste Share Line here!" size="80" maxlength="150">
                 </form>
               </div>
               <br>
@@ -173,10 +173,11 @@
               <h4 class="modal-title">Instagram Shortcode</h4>
             </div>
             <div class="container">
-              <div>
+              
+              <div class="col-sm-1">
                 <h5>Columns</h5>
                 <div class="dropdown">
-                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown>">1
+                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">1
                     <span class="caret"></span>
                   </button>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
@@ -187,7 +188,24 @@
                   </ul>
                 </div>
               </div>
+
+              <div class="col-sm-2">
+                <h5> Hide Captions</h5>
+                <div class="dropdown">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">No
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledb="dropdownMenu3">
+                    <li><a href="#">No</a></li>
+                    <li><a href="#">Yes</a></li>
+                  </ul>
+                </div>
+              </div>
             </div>
+
+            <hr>
+ 
+            <p style="background-color:lightblue">Note: Instagram URL must star with<span style="font-family:courier"> https://instagram.com/.<span>Please add more URLs before choosing number of columns.</p>
 
 
 
@@ -210,9 +228,8 @@
 
             <!-- Modal content -->
             <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title" background color="grey">Insert Countdown</h4>
+              <div class="modal-header" style="background-color:lightgrey">
+                <h4 class="modal-title" >Insert Countdown</h4>
               </div>
               <div class="modal-body">
                 <p>Some text in the modal.</p>

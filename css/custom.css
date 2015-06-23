@@ -1,10 +1,10 @@
-.row {
+ .row {
 	margin: 100px auto;
 	padding: 30px;
-	border:2px dotted red;
+	border:2px;
 	width: 100%;
 
-}
+} 
 .left-rail{
 	width: 66%;
 	border:2px dotted green;
