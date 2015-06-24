@@ -18,6 +18,14 @@
     <![endif]-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+    <style>
+      p.note {
+        background-color: lightblue;
+        padding: 10px;
+        margin:10px;
+      }
+    </style>
   </head>
 
   <body>
@@ -35,6 +43,7 @@
     <div class="col-md-6 right-rail">
 
       <!-- Trigger the modal with a button [QUOTES 1] -->
+      <br>
       <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal4">
         <span class="glyphicon glyphicon-plus-sign"></span>Insert Share Lines or Quote I
       </button><br>
@@ -48,7 +57,7 @@
             <div class="modal-header" style="background-color:lightgrey">
               <h4 class="modal-title">Insert Share Lines or Quote</h4>
             </div>
-            <div class="container">
+            <div class="container-fluid">
               <h5><b>Share link type</b></h5>
 
               <!-- Dropdown menu -->
@@ -66,7 +75,7 @@
 
               <hr>
 
-              <p>NOTE: Max 150 characters for Author & Author Description, 250 characters for Quote. All text fields required.</p>
+              <p class="note">NOTE: Max 150 characters for Author & Author Description, 250 characters for Quote. All text fields required.</p>
               
 
               <h5><b>Author</b></h5>
@@ -119,7 +128,7 @@
             <div class="modal-header"  style="background-color:lightgrey">
               <h4 class="modal-title">Insert Share Lines or Quote</h4>
             </div>
-              <div class="container">
+              <div class="container-fluid">
                 <h5>Share link type</h5>
 
                 <!-- Dropdown Menu -->
@@ -137,7 +146,7 @@
 
                 <hr>
 
-                <p>NOTE: max 150 character per Share Line</p>
+                <p class="note">NOTE: max 150 character per Share Line</p>
                 
                 <h5>Share Line 1</h5>
                 <form>
@@ -172,9 +181,9 @@
             <div class="modal-header"  style="background-color:lightgrey">
               <h4 class="modal-title">Instagram Shortcode</h4>
             </div>
-            <div class="container">
+            <div class="container-fluid">
               
-              <div class="col-sm-1">
+              <div class="col-sm-2">
                 <h5>Columns</h5>
                 <div class="dropdown">
                   <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">1
@@ -189,7 +198,7 @@
                 </div>
               </div>
 
-              <div class="col-sm-2">
+              <div class="col-sm-3">
                 <h5> Hide Captions</h5>
                 <div class="dropdown">
                   <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">No
@@ -201,17 +210,25 @@
                   </ul>
                 </div>
               </div>
+              <br><br><br><br>
+              <hr>
+ 
+              <p class="note">Note: Instagram URL must star with<span style="font-family:courier"> https://instagram.com/.</span>Please add more URLs before choosing number of columns.</p>
+
+              <br>
+
+              <h5> Instagram URL 1</h5>
+              <form>
+                <input type="text" name="insta" placeholder="Type/paste Instagram URL here!" size="80" maxlength="150">
+              </form>
             </div>
 
-            <hr>
- 
-            <p style="background-color:lightblue">Note: Instagram URL must star with<span style="font-family:courier"> https://instagram.com/.<span>Please add more URLs before choosing number of columns.</p>
-
-
-
+            <br>
 
             <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success">Add</button>
+                <button type="button" class="btn btn-primary">Insert Shortcode</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
           </div>
 
@@ -223,7 +240,7 @@
         <span class="glyphicon glyphicon-plus-sign"></span>Insert Countdown
       </button><br>
       <!-- Modal -->
-        <div id="myModal3" class="modal" role="dialog">
+        <div id="myModal3" class="modal fade" role="dialog">
           <div class="modal-dialog">
 
             <!-- Modal content -->
@@ -231,11 +248,41 @@
               <div class="modal-header" style="background-color:lightgrey">
                 <h4 class="modal-title" >Insert Countdown</h4>
               </div>
-              <div class="modal-body">
-                <p>Some text in the modal.</p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+              <br>
+              <div class= "container-fluid">
+                <div style="background-color:lightblue">
+                  <p class="note">NOTE: Countdown Caption required</p>
+                </div>
+              
+                <div class="col-md-6">
+                  <h5> End Date </h5>
+                  <form>
+                    <input type="date">
+                  </form>
+                </div>
+                <div class="col-md-6">
+                  <h5> End Time </h5>
+                  <form>
+                    <input type="time">
+                  </form>
+                </div>
+
+              <br><br><br>
+              <hr>
+
+                <div class="form-group">
+                  <label for="caption">Countdown Caption (max 250 char)</label>
+                
+                  <textarea class="form-control" id="caption" placeholder="Type/paste your Countdown Caption here!" style="margin-top: 0px 16px 0px 0px; height: 130px; width:90%" maxlength:"250"></textarea>               
+                </div>
+
+                <br>
+
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Insert Shortcode</button>                  
+                </div>
               </div>
             </div>
           </div>

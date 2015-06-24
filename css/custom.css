@@ -7,12 +7,12 @@
 } 
 .left-rail{
 	width: 66%;
-	border:2px dotted green;
+	border:2px ;
 
 }
 .right-rail{
 	width: 25%;
-	border:2px dotted blue;
+	border:2px;
 }
 
 .textarea {
