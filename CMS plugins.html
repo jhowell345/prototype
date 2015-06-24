@@ -61,7 +61,7 @@
               <h5><b>Share link type</b></h5>
 
               <!-- Dropdown menu -->
-              <select name="Quote">
+              <select name="Quote" style="font-size:24px">
                 <option value="image">Image</option>
                 <option value="text">Text</option>
                 <option value="social-media">Social Media</option>
@@ -75,13 +75,13 @@
               <h5><b>Author</b></h5>
               <form>
                 <div>
-                  <input type="text" name="author" placeholder="Author" size="100" maxlength="150">
+                  <input type="text" name="author" placeholder="Author" size="100" maxlength="150" required>
                 </div>
               </form>
               <h5><b>Author Description</b></h5>
               <form>
                 <div>
-                  <input type="text" name="authordescription" placeholder="Author Description" size="100" maxlength="150">
+                  <input type="text" name="authordescription" placeholder="Author Description" size="100" maxlength="150" required>
                 </div>
               </form>
 
@@ -90,7 +90,7 @@
               <div class="form-group">
                 <label for="comment">Quote (max 250 char)</label>
                 
-                <textarea class="form-control" id="comment" placeholder="Type/paste Quote here!" style="margin-top: 0px; margin-bottom: 0px; height: 158px" maxlength:"250"></textarea>
+                <textarea class="form-control" id="comment" placeholder="Type/paste Quote here!" style="margin-top: 0px; margin-bottom: 0px; height: 158px" maxlength:"250" required></textarea>
                 <input type="checkbox" name="QotD"> Quote of the day?
               </div>
             </div>
@@ -126,7 +126,7 @@
                 <h5>Share link type</h5>
 
                 <!-- Dropdown Menu -->
-              <select name="Quote">
+              <select name="Quote" style="font-size:24px">
                 <option value="image">Image</option>
                 <option value="text">Text</option>
                 <option value="social-media">Social Media</option>
@@ -138,7 +138,7 @@
                 
                 <h5>Share Line 1</h5>
                 <form>
-                  <input type="text" name="shareline" placeholder="Type/paste Share Line here!" size="80" maxlength="150">
+                  <input type="text" name="shareline" placeholder="Type/paste Share Line here!" size="80" maxlength="150" required>
                 </form>
               </div>
               <br>
@@ -173,7 +173,7 @@
               
               <div class="col-sm-3">
                 <h5>Columns</h5>
-                <select name="Columns">
+                <select name="Columns" style="font-size:24px">
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
@@ -183,7 +183,7 @@
 
               <div class="col-sm-3">
                 <h5> Hide Captions</h5>
-                <select name="yesorno">
+                <select name="yesorno" style="font-size:24px">
                   <option value="yes">Yes</option>
                   <option value="no">No</option>
                 </select>
@@ -191,13 +191,13 @@
               <br><br><br><br>
               <hr>
  
-              <p class="note">Note: Instagram URL must star with<span style="font-family:courier"> https://instagram.com/.</span>Please add more URLs before choosing number of columns.</p>
+              <p class="note">Note: Instagram URL must start with<span style="font-family:courier"> https://instagram.com/.</span>Please add more URLs before choosing number of columns.</p>
 
               <br>
 
               <h5> Instagram URL 1</h5>
               <form>
-                <input type="text" name="insta" placeholder="Type/paste Instagram URL here!" size="80" maxlength="150">
+                <input type="text" name="insta" placeholder="Type/paste Instagram URL here!" size="80" maxlength="150" required>
               </form>
             </div>
 
@@ -256,7 +256,7 @@
                 <div class="form-group">
                   <label for="caption">Countdown Caption (max 250 char)</label>
                 
-                  <textarea class="form-control" id="caption" placeholder="Type/paste your Countdown Caption here!" style="margin-top: 0px 16px 0px 0px; height: 130px; width:90%" maxlength:"250"></textarea>               
+                  <textarea class="form-control" id="caption" placeholder="Type/paste your Countdown Caption here!" style="margin-top: 0px 16px 0px 0px; height: 130px; width:90%" maxlength:"250" required></textarea>               
                 </div>
 
                 <br>
