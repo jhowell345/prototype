@@ -61,17 +61,11 @@
               <h5><b>Share link type</b></h5>
 
               <!-- Dropdown menu -->
-              <div class="dropdown">
-                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                Quote
-                <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                  <li><a href="#">Image</a></li>
-                  <li><a href="#">Text</a></li>
-                  <li><a href="#">Social</a></li>
-                </ul>
-              </div>
+              <select name="Quote">
+                <option value="image">Image</option>
+                <option value="text">Text</option>
+                <option value="social-media">Social Media</option>
+              </select>
 
               <hr>
 
@@ -132,17 +126,11 @@
                 <h5>Share link type</h5>
 
                 <!-- Dropdown Menu -->
-                <div class="dropdown">
-                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                    Share Line
-                    <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                    <li><a href="#">Image</a></li>
-                    <li><a href="#">Text</a></li>
-                    <li><a href="#">Social media</a></li>
-                  </ul>
-                </div>
+              <select name="Quote">
+                <option value="image">Image</option>
+                <option value="text">Text</option>
+                <option value="social-media">Social Media</option>
+              </select>
 
                 <hr>
 
@@ -183,32 +171,22 @@
             </div>
             <div class="container-fluid">
               
-              <div class="col-sm-2">
+              <div class="col-sm-3">
                 <h5>Columns</h5>
-                <div class="dropdown">
-                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">1
-                    <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
-                    <li><a href="#">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                  </ul>
-                </div>
+                <select name="Columns">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                </select>
               </div>
 
               <div class="col-sm-3">
                 <h5> Hide Captions</h5>
-                <div class="dropdown">
-                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">No
-                    <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu" aria-labelledb="dropdownMenu3">
-                    <li><a href="#">No</a></li>
-                    <li><a href="#">Yes</a></li>
-                  </ul>
-                </div>
+                <select name="yesorno">
+                  <option value="yes">Yes</option>
+                  <option value="no">No</option>
+                </select>
               </div>
               <br><br><br><br>
               <hr>
@@ -254,17 +232,21 @@
                 <div style="background-color:lightblue">
                   <p class="note">NOTE: Countdown Caption required</p>
                 </div>
-              
+
                 <div class="col-md-6">
-                  <h5> End Date </h5>
                   <form>
-                    <input type="date">
+                    <fieldset>
+                    <legend style="font-size:16px">End Date</legend>
+                      <input type="date">
+                    </fieldset>
                   </form>
                 </div>
                 <div class="col-md-6">
-                  <h5> End Time </h5>
                   <form>
-                    <input type="time">
+                    <fieldset>
+                    <legend style="font-size:16px">End Time</legend>
+                      <input type="time">
+                    </fieldset>
                   </form>
                 </div>
 
