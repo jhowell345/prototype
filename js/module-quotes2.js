@@ -22,6 +22,14 @@ $(document).ready(function() {
     };
 
     function addShortcode() {
-        console.log("adding shortcode for Quotes2")
+
+        // TODO - this is basic output from the form
+        var shortcode = $("#quotes2 form").serialize();
+        $("#comment").text(shortcode);
+        console.log("adding shortcode for Quotes2: " + shortcode);
+
+        // close the modal
+        $("#quotes2 .close-me").click();
+        console.log("closing modal")
     }
 });
