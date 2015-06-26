@@ -39,15 +39,6 @@
       }
     </style>
 
-    <script>
-      function addLine() {
-        document.getElementById("share").innerHTML = 
-          '<h5>Share Line 2</h5>
-          <form>
-            <input type="text" name="shareline" placeholder="Type/paste Share Line here!" style="width:90%" maxlength="150" required>
-          </form>' ;
-      }
-    </script>
   </head>
 
   <body>
@@ -82,45 +73,42 @@
               <h4 class="modal-title">Insert Share Lines or Quote</h4>
             </div>
             <div class="container-fluid">
-              <h5><b>Share link type</b></h5>
+              <form action="">
+                <h5><b>Share link type</b></h5>
+                <!-- Dropdown menu -->
+                <select name="Quote" style="font-size:24px">
+                  <option value="image">Image</option>
+                  <option value="text">Text</option>
+                  <option value="social-media">Social Media</option>
+                </select>
 
-              <!-- Dropdown menu -->
-              <select name="Quote" style="font-size:24px">
-                <option value="image">Image</option>
-                <option value="text">Text</option>
-                <option value="social-media">Social Media</option>
-              </select>
+                <hr />
 
-              <hr>
+                <p class="note">NOTE: Max 150 characters for Author & Author Description, 250 characters for Quote. All text fields required.</p>
 
-              <p class="note">NOTE: Max 150 characters for Author & Author Description, 250 characters for Quote. All text fields required.</p>
-              
-
-              <h5><b>Author</b></h5>
-              <form action="action_page.php">
+                <h5><b>Author</b></h5>
                 <div>
                   <input type="text" name="author" placeholder="Author" style="width:90%" maxlength="150" required>
                 </div>
-              </form>
-              <h5><b>Author Description</b></h5>
-              <form action="action_page.php">
+
+                <h5><b>Author Description</b></h5>
+
                 <div>
                   <input type="text" name="authordescription" placeholder="Author Description" style="width:90%" maxlength="150" required>
                 </div>
+
+                <br />
+
+                <div class="form-group">
+                  <label for="comment">Quote (max 250 char)</label>
+                  <textarea class="form-control" id="comment" placeholder="Type/paste Quote here!" style="margin-top: 0px; margin-bottom: 0px; height: 158px; width: 90%" maxlength="250" required></textarea>
+                  <input type="checkbox" name="QotD"> Quote of the day?
+                </div>
               </form>
-
-              <br>
-
-              <div class="form-group">
-                <label for="comment">Quote (max 250 char)</label>
-                
-                <textarea class="form-control" id="comment" placeholder="Type/paste Quote here!" style="margin-top: 0px; margin-bottom: 0px; height: 158px; width: 90%" maxlength="250" required></textarea>
-                <input type="checkbox" name="QotD"> Quote of the day?
-              </div>
             </div>
             <br>
             <div class="modal-footer">
-              
+
               <button type="button" class="btn btn-primary">Insert Shortcode</button>
               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 
@@ -146,36 +134,37 @@
             <div class="modal-header"  style="background-color:lightgrey">
               <h4 class="modal-title">Insert Share Lines or Quote</h4>
             </div>
-              <div class="container-fluid">
+            <div class="container-fluid">
+              <form>
                 <h5>Share link type</h5>
 
                 <!-- Dropdown Menu -->
-              <select name="Quote" style="font-size:24px">
-                <option value="image">Image</option>
-                <option value="text">Text</option>
-                <option value="social-media">Social Media</option>
-              </select>
+                <select name="Quote" style="font-size:24px">
+                  <option value="image">Image</option>
+                  <option value="text">Text</option>
+                  <option value="social-media">Social Media</option>
+                </select>
 
                 <hr>
 
                 <p class="note">NOTE: max 150 character per Share Line</p>
-                
-                <h5>Share Line 1</h5>
-                <form>
-                  <input type="text" name="shareline" placeholder="Type/paste Share Line here!" style="width:90%" maxlength="150" required>
-                </form>
 
-                <div id="share"></div>
-                
-              </div>
-              <br>
+                <h5></h5>
+
+                <div class="form-group">
+                  <label for="caption">Share Line 1</label>
+                  <input type="text" class="form-control" name="shareline1" placeholder="Type/paste Share Line here!" style="width:90%" maxlength="150" required>
+                </div>
+
+                <!-- <div id="share">TEST</div> -->
+                </form>
+            </div>
+            <br>
 
               <div class="modal-footer">
-                  
-                <button type="button" onclick:"addLine()" class="btn btn-success">Add</button>
+                <button type="button" class="btn btn-success add_new_line">Add</button>
                 <button type="button" class="btn btn-primary">Insert Shortcode</button>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-
               </div>
 
           </div>
@@ -197,7 +186,7 @@
               <h4 class="modal-title">Instagram Shortcode</h4>
             </div>
             <div class="container-fluid">
-              
+
               <div class="col-sm-3">
                 <h5>Columns</h5>
                 <select name="Columns" style="font-size:24px">
@@ -217,7 +206,7 @@
               </div>
               <br><br><br><br>
               <hr>
- 
+
               <p class="note">Note: Instagram URL must start with<span style="font-family:courier"> https://instagram.com/.</span>Please add more URLs before choosing number of columns.</p>
 
               <br>
@@ -239,7 +228,7 @@
 
         </div>
       </div>
-      
+
       <!-- Trigger the modal with a button [Countdown] -->
       <button type="button" class="btn btn-success" data-toggle="modal" data-target="#countdown">
         <span class="glyphicon glyphicon-plus-sign"></span>Insert Countdown
@@ -282,15 +271,15 @@
 
                 <div class="form-group">
                   <label for="caption">Countdown Caption (max 250 char)</label>
-                
-                  <textarea class="form-control" id="caption" placeholder="Type/paste your Countdown Caption here!" style="margin-top: 0px 16px 0px 0px; height: 130px; width:90%" maxlength="250" required></textarea>               
+
+                  <textarea class="form-control" id="caption" placeholder="Type/paste your Countdown Caption here!" style="margin-top: 0px 16px 0px 0px; height: 130px; width:90%" maxlength="250" required></textarea>
                 </div>
 
                 <br>
 
                 <div class="modal-footer">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Insert Shortcode</button>                  
+                  <button type="button" class="btn btn-primary">Insert Shortcode</button>
                 </div>
               </div>
             </div>
@@ -299,8 +288,9 @@
 
 
       </div>
-    
     <!-- END ROW-->
     </div>
+
+    <script src="js/custom.js"></script>
   </body>
 </html
