@@ -1,10 +1,29 @@
- .row {
+/* LAYUOT CSS */
+#header {
+	background-color: orange;
+	color: darkgreen;
+	text-align: center;
+	padding: 5px;
+}
+#footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 3px;
+}
+p.note {
+	background-color: lightblue;
+	padding: 10px;
+	margin:10px;
+}
+
+.row {
 	margin: 100px auto;
 	padding: 30px;
 	border:2px;
 	width: 100%;
 
-} 
+}
 .left-rail{
 	width: 66%;
 	border:2px ;

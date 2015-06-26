@@ -1,6 +1,9 @@
 $(document).ready(function() {
 
-    $("#quotes2 .add_new_line").on("click", function () {
+    $("#quotes2 .add_new_line").on("click", addQuotes2line);
+    $("#quotes2 .add_shortcode").on("click", addShortcode);
+
+    function addQuotes2line() {
         var html = "",
             count = $("#quotes2 input").length + 1;
 
@@ -16,5 +19,9 @@ $(document).ready(function() {
 
         console.log("Adding new line");
 
-    });
+    };
+
+    function addShortcode() {
+        console.log("adding shortcode for Quotes2")
+    }
 });
