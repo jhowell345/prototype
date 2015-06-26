@@ -20,22 +20,46 @@
     <script src="js/bootstrap.min.js"></script>
 
     <style>
+      #header {
+        background-color: orange;
+        color: darkgreen;
+        text-align: center;
+        padding: 5px;
+      }
+      #footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 3px;
+      }
       p.note {
         background-color: lightblue;
         padding: 10px;
         margin:10px;
       }
     </style>
+
+    <script>
+      function addLine() {
+        document.getElementById("share").innerHTML = 
+          '<h5>Share Line 2</h5>
+          <form>
+            <input type="text" name="shareline" placeholder="Type/paste Share Line here!" style="width:90%" maxlength="150" required>
+          </form>' ;
+      }
+    </script>
   </head>
 
   <body>
+    <div id="header"><h1><b>Jake's Bootstrap Exercise</b></h1></div>
+
     <div class="row" style="margin:100px auto; padding:30px; border: 2px; width:100%">
 
     <!-- LEFT RAIL -->
     <div class="col-md-6 left-rail">
       <div class="form-group">
         <label for="comment">Content Here:</label>
-        <textarea class="form-control" rows="10" id="comment"></textarea>
+        <textarea class="form-control" rows="10" style="width:90%" id="comment"></textarea>
       </div>
     </div>
 
@@ -44,12 +68,12 @@
 
       <!-- Trigger the modal with a button [QUOTES 1] -->
       <br>
-      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal4">
+      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#quotes1">
         <span class="glyphicon glyphicon-plus-sign"></span>Insert Share Lines or Quote I
       </button><br>
 
       <!-- Modal -->
-      <div id="myModal4" class="modal fade" role="dialog">
+      <div id="quotes1" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg">
 
           <!-- Modal content -->
@@ -108,13 +132,13 @@
 
 
       <!-- Trigger the modal with a button [QUOTES 2] -->
-      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal1">
+      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#quotes2">
         <span class="glyphicon glyphicon-plus-sign"></span>Insert Share Lines or Quote II
       </button><br>
 
 
       <!-- Modal -->
-      <div id="myModal1" class="modal fade" role="dialog">
+      <div id="quotes2" class="modal fade" role="dialog">
         <div class="modal-dialog">
 
           <!-- Modal content -->
@@ -137,15 +161,18 @@
                 <p class="note">NOTE: max 150 character per Share Line</p>
                 
                 <h5>Share Line 1</h5>
-                <form action="action_page.php">
+                <form>
                   <input type="text" name="shareline" placeholder="Type/paste Share Line here!" style="width:90%" maxlength="150" required>
                 </form>
+
+                <div id="share"></div>
+                
               </div>
               <br>
 
               <div class="modal-footer">
                   
-                <button type="button" class="btn btn-success">Add</button>
+                <button type="button" onclick:"addLine()" class="btn btn-success">Add</button>
                 <button type="button" class="btn btn-primary">Insert Shortcode</button>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 
@@ -157,11 +184,11 @@
       </div>
 
       <!-- Trigger the modal with a button [Instagram]-->
-      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal2">
+      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#instagram">
         <span class="glyphicon glyphicon-plus-sign"></span>Insert Instagram
       </button><br>
       <!-- Modal -->
-      <div id="myModal2" class="modal fade" role="dialog">
+      <div id="instagram" class="modal fade" role="dialog">
         <div class="modal-dialog">
 
           <!-- Modal content -->
@@ -214,11 +241,11 @@
       </div>
       
       <!-- Trigger the modal with a button [Countdown] -->
-      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal3">
+      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#countdown">
         <span class="glyphicon glyphicon-plus-sign"></span>Insert Countdown
       </button><br>
       <!-- Modal -->
-        <div id="myModal3" class="modal fade" role="dialog">
+        <div id="countdown" class="modal fade" role="dialog">
           <div class="modal-dialog">
 
             <!-- Modal content -->
@@ -271,19 +298,9 @@
         </div>
 
 
-    </div>
+      </div>
     
     <!-- END ROW-->
     </div>
-
-
-
-
-
-      
-
-
-
-
-    </div>
   </body>
+</html
