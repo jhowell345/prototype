@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     $("#quotes2 .add_new_line").on("click", addQuotes2line);
-    $("#quotes2 .add_shortcode").on("click", addShortcode);
+    $("#quotes2 .add_shortcode").on("click", addShortcode2);
 
     function addQuotes2line() {
         var html = "",
@@ -21,7 +21,7 @@ $(document).ready(function() {
 
     };
 
-    function addShortcode() {
+    function addShortcode2() {
 
         // TODO - this is basic output from the form
         var shortcode = $("#quotes2 form").serialize();
@@ -30,6 +30,6 @@ $(document).ready(function() {
 
         // close the modal
         $("#quotes2 .close-me").click();
-        console.log("closing modal")
+        console.log("closing modal");
     }
 });

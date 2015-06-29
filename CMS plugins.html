@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -18,6 +18,10 @@
     <![endif]-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/modal1.js"></script>
+    <script src="js/modal2.js"></script>
+    <script src="js/modal3.js"></script>
+    <script src="js/modal4.js"></script>
 
   </head>
 
@@ -89,8 +93,8 @@
             <br>
             <div class="modal-footer">
 
-              <button type="button" class="btn btn-primary">Insert Shortcode</button>
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary add_shortcode">Insert Shortcode</button>
+              <button type="button" class="btn btn-default close-me" data-dismiss="modal">Close</button>
 
             </div>
           </div>
@@ -166,43 +170,43 @@
               <h4 class="modal-title">Instagram Shortcode</h4>
             </div>
             <div class="container-fluid">
+            <form>
+                <div class="col-sm-3">
+                  <h5>Columns</h5>
+                  <select name="Columns" style="font-size:24px">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                </div>
 
-              <div class="col-sm-3">
-                <h5>Columns</h5>
-                <select name="Columns" style="font-size:24px">
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                </select>
-              </div>
+                <div class="col-sm-3">
+                  <h5> Hide Captions</h5>
+                  <select name="yesorno" style="font-size:24px">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                  </select>
+                </div>
+                <br><br><br><br>
+                <hr>
 
-              <div class="col-sm-3">
-                <h5> Hide Captions</h5>
-                <select name="yesorno" style="font-size:24px">
-                  <option value="yes">Yes</option>
-                  <option value="no">No</option>
-                </select>
-              </div>
-              <br><br><br><br>
-              <hr>
+                <p class="note">Note: Instagram URL must start with<span style="font-family:courier"> https://instagram.com/.</span>Please add more URLs before choosing number of columns.</p>
 
-              <p class="note">Note: Instagram URL must start with<span style="font-family:courier"> https://instagram.com/.</span>Please add more URLs before choosing number of columns.</p>
+                <br>
 
-              <br>
-
-              <h5> Instagram URL 1</h5>
-              <form action="action_page.php">
-                <input type="text" name="insta" placeholder="Type/paste Instagram URL here!" style="width:90%" maxlength="150" required>
+                <h5> Instagram URL 1</h5>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="shareline" placeholder="Type/paste Instagram URL here!" style="width:90%" maxlength="150" required>
+                </div>
               </form>
             </div>
-
             <br>
 
             <div class="modal-footer">
-                <button type="button" class="btn btn-success">Add</button>
-                <button type="button" class="btn btn-primary">Insert Shortcode</button>
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success add_new_line">Add</button>
+                <button type="button" class="btn btn-primary add_shortcode">Insert Shortcode</button>
+                <button type="button" class="btn btn-default close-me" data-dismiss="modal">Close</button>
             </div>
           </div>
 
@@ -225,43 +229,46 @@
 
               <br>
               <div class= "container-fluid">
-                <div style="background-color:lightblue">
-                  <p class="note">NOTE: Countdown Caption required</p>
-                </div>
+                
 
-                <div class="col-md-6">
-                  <form action="action_page.php">
+                  <div style="background-color:lightblue">
+                    <p class="note">NOTE: Countdown Caption required</p>
+                  </div>
+                <form>
+                  <div class="col-md-6">
+
                     <fieldset>
                     <legend style="font-size:16px">End Date</legend>
                       <input type="date">
                     </fieldset>
-                  </form>
-                </div>
-                <div class="col-md-6">
-                  <form action="action_page.php">
+
+                  </div>
+                  <div class="col-md-6">
+
                     <fieldset>
                     <legend style="font-size:16px">End Time</legend>
                       <input type="time">
                     </fieldset>
-                  </form>
-                </div>
 
-              <br><br><br>
-              <hr>
+                  </div>
 
-                <div class="form-group">
-                  <label for="caption">Countdown Caption (max 250 char)</label>
+                  <br><br><br>
+                  <hr>
 
-                  <textarea class="form-control" id="caption" placeholder="Type/paste your Countdown Caption here!" style="margin-top: 0px 16px 0px 0px; height: 130px; width:90%" maxlength="250" required></textarea>
-                </div>
+                  <div class="form-group">
+                    <label for="caption">Countdown Caption (max 250 char)</label>
 
-                <br>
+                    <textarea class="form-control" id="caption" placeholder="Type/paste your Countdown Caption here!" style="margin-top: 0px 16px 0px 0px; height: 130px; width:90%" maxlength="250" required></textarea>
+                  </div>
 
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Insert Shortcode</button>
-                </div>
+                  <br>
+                </form>
               </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary add_shortcode">Insert Shortcode</button>
+                  <button type="button" class="btn btn-default close-me" data-dismiss="modal">Close</button>
+                </div>
+              
             </div>
           </div>
         </div>
@@ -271,6 +278,5 @@
     <!-- END ROW-->
     </div>
 
-    <script src="js/module-quotes2.js"></script>
   </body>
 </html
