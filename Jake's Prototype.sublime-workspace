@@ -1,0 +1,1810 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"vis",
+				"visible"
+			],
+			[
+				"text",
+				"text_max"
+			],
+			[
+				"input",
+				"inputCounter"
+			],
+			[
+				"init",
+				"init_meta"
+			],
+			[
+				"get",
+				"getVideoURL"
+			],
+			[
+				"video",
+				"video_source"
+			],
+			[
+				"share",
+				"share_line"
+			],
+			[
+				"SO",
+				"SO_dialog"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"ac",
+				"actionControl"
+			],
+			[
+				"form",
+				"formValidated"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"disa",
+				"disabledForm"
+			],
+			[
+				"vali",
+				"validateMe"
+			],
+			[
+				"validate",
+				"validateForm"
+			],
+			[
+				"st",
+				"storyOptimizer"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"item",
+				"item_value"
+			],
+			[
+				"margni",
+				"margin-right"
+			],
+			[
+				"ma",
+				"maxlength	Attr"
+			],
+			[
+				"bore",
+				"border"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"aut",
+				"author"
+			],
+			[
+				"In",
+				"intro_paragraph"
+			],
+			[
+				"hide",
+				"hide_media"
+			],
+			[
+				"vine",
+				"Vine"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"remo",
+				"removeItem"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"pa",
+				"par1"
+			],
+			[
+				"cone",
+				"console"
+			],
+			[
+				"sho",
+				"showDialog"
+			],
+			[
+				"tei",
+				"twitter_functions"
+			],
+			[
+				"tex",
+				"text-indent"
+			],
+			[
+				"background",
+				"background-image"
+			],
+			[
+				"block",
+				"block	Twig : Block"
+			],
+			[
+				"to",
+				"toLowerCase"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"margo",
+				"margin-top"
+			],
+			[
+				"fu",
+				"function_three"
+			],
+			[
+				"fuc",
+				"function_two"
+			],
+			[
+				"in",
+				"inside"
+			],
+			[
+				"pdd",
+				"padding-bottom"
+			],
+			[
+				"ta",
+				"table-cell"
+			],
+			[
+				"t",
+				"text-transform"
+			],
+			[
+				"providerlogo",
+				"ProviderLogo"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"POs",
+				"PostID"
+			],
+			[
+				"blo",
+				"inline-block"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"Show",
+				"showFriends"
+			],
+			[
+				"exit",
+				"exit_btn"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"com",
+				"compact"
+			],
+			[
+				"MAR",
+				"margin-bottom"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"i",
+				"important"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"post",
+				"postid"
+			],
+			[
+				"f",
+				"for	for (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"off",
+				"offset"
+			],
+			[
+				"tool",
+				"tooltip"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"Bel",
+				"Bell-Ita"
+			],
+			[
+				"js",
+				"jshintrc"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "CMS plugins.html",
+			"settings":
+			{
+				"buffer_size": 10833,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/module-quotes2.js",
+			"settings":
+			{
+				"buffer_size": 833,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 307.0,
+		"last_filter": "clip",
+		"selected_items":
+		[
+			[
+				"clip",
+				"Sublimerge: Compare to Clipboard"
+			],
+			[
+				"blame",
+				"Git: Blame"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"twi",
+				"Set Syntax: HTML (Twig)"
+			],
+			[
+				"compare",
+				"Sublimerge: Compare to Revision..."
+			],
+			[
+				"git res",
+				"Git: Reset (unstage) Current File"
+			],
+			[
+				"jshin",
+				"JSHint: Set Linting Preferences"
+			],
+			[
+				"compr",
+				"Sublimerge: Custom Comparison..."
+			],
+			[
+				"sublim",
+				"Sublimerge: Compare to Revision..."
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"stash",
+				"Git: Stash Apply"
+			],
+			[
+				"git sta",
+				"Git: Stash Changes"
+			],
+			[
+				"stas",
+				"Git: Show Tags"
+			],
+			[
+				"git reser",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"gitre",
+				"Git: Reset (unstage) Current File"
+			],
+			[
+				"gutter",
+				"GitGutter: Compare Against HEAD"
+			],
+			[
+				"compa",
+				"GitGutter: Compare Against Tag"
+			],
+			[
+				"jshi",
+				"JSHint"
+			],
+			[
+				"balme",
+				"Git: Blame"
+			],
+			[
+				"twig",
+				"Set Syntax: HTML (Twig)"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"reg",
+				"Set Syntax: Regular Expression"
+			],
+			[
+				"bla",
+				"Git: Blame"
+			],
+			[
+				"comap",
+				"Sublimerge: Compare to Revision..."
+			],
+			[
+				"blam",
+				"Git: Blame"
+			],
+			[
+				"gutt",
+				"GitGutter: Show Comparing Against"
+			],
+			[
+				"merge",
+				"Sublimerge: Compare to Revision..."
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"PACKACE",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instae",
+				"Package Control: Install Package"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"compate",
+				"Sublimerge: Compare to View..."
+			],
+			[
+				"comapre",
+				"Sublimerge: Compare to View..."
+			],
+			[
+				"asp",
+				"Set Syntax: ASP"
+			],
+			[
+				"view",
+				"Sublimerge: Compare to View..."
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"cli",
+				"Sublimerge: Compare to Clipboard"
+			],
+			[
+				"tex",
+				"Set Syntax: TeX"
+			],
+			[
+				"clipo",
+				"Sublimerge: Compare to Clipboard"
+			],
+			[
+				"revisio",
+				"Sublimerge: Compare Revision to Revision..."
+			],
+			[
+				"revert",
+				"Sublimerge: Revert to Snapshot"
+			],
+			[
+				"merg",
+				"Sublimerge: Compare to View..."
+			],
+			[
+				"com",
+				"GitGutter: Compare Against Branch"
+			],
+			[
+				"copmare",
+				"GitGutter: Compare Against Branch"
+			],
+			[
+				"CLIP",
+				"Sublimerge: Compare to Clipboard"
+			],
+			[
+				"MERGE",
+				"Sublimerge: Compare to Clipboard"
+			],
+			[
+				"JSHINT",
+				"JSHint: Set Linting Preferences"
+			],
+			[
+				"JSHIN",
+				"JSHint: Set Linting Preferences"
+			],
+			[
+				"JSHI",
+				"JSHint: Set Plugin Options"
+			],
+			[
+				"JS",
+				"JSHint"
+			],
+			[
+				"clipboa",
+				"Sublimerge: Compare to Clipboard"
+			],
+			[
+				"clipr",
+				"Sublimerge: Compare to Clipboard"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"HTML",
+				"Set Syntax: HTML"
+			],
+			[
+				"mer",
+				"Sublimerge: Compare to View..."
+			],
+			[
+				"coma",
+				"Sublimerge: Compare to View..."
+			],
+			[
+				"custom",
+				"Sublimerge: Custom Comparison..."
+			],
+			[
+				"bran",
+				"Git: Change Branch"
+			],
+			[
+				"cusom",
+				"Sublimerge: Custom Comparison..."
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"reset",
+				"Git: Reset (unstage) Current File"
+			],
+			[
+				"pop",
+				"Git: Stash Pop"
+			],
+			[
+				"add",
+				"Git: Add..."
+			],
+			[
+				"cust",
+				"Sublimerge: Custom Comparison..."
+			],
+			[
+				"edi",
+				"Set Syntax: EditorConfig"
+			],
+			[
+				"opti",
+				"JSHint: Set Plugin Options"
+			],
+			[
+				"jshint",
+				"JSHint: Set Linting Preferences"
+			],
+			[
+				"chan",
+				"Git: Change Branch"
+			],
+			[
+				"cha",
+				"Git: Change Branch"
+			],
+			[
+				"che",
+				"Git: Change Branch"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"gutte",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"diff",
+				"Git: Diff Current File"
+			],
+			[
+				"git l",
+				"Git: Graph All"
+			],
+			[
+				"bower",
+				"Bower: Install"
+			],
+			[
+				"bowe",
+				"Bower: Install"
+			],
+			[
+				"config",
+				"Bower: Configure project"
+			],
+			[
+				"insla",
+				"Package Control: Install Package"
+			],
+			[
+				"package ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 335.0,
+		"history":
+		[
+			"g s",
+			"bower",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/lukapirl/github/prototype",
+		"/Users/lukapirl/github/prototype/js"
+	],
+	"file_history":
+	[
+		"/Users/lukapirl/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/src/js/storyOptimizer.js",
+		"/Users/lukapirl/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/src/sass/_layout/_default.scss",
+		"/Users/lukapirl/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/src/js/full-width-video.js",
+		"/Users/lukapirl/.bash_profile",
+		"/Users/lukapirl/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/src/sass/_modules/_storyOptimizer.scss",
+		"/Users/lukapirl/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/src/js/you_need_this.js",
+		"/Users/lukap/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/src/js/full-width-video.js",
+		"/Users/lukap/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/src/sass/dotcom-bs_plugins.scss",
+		"/Users/lukap/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/src/js/share-links.js",
+		"/Users/lukap/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/dist/dotcom-bs_plugins.css",
+		"/Users/lukap/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/src/js/countdown.js",
+		"/Users/lukap/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/src/js/intro-paragraph.js",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/AMP Bonanza - dotcom channels/blocks/modules/lifestyle/re-categorisation.twig",
+		"/Users/lukap/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/.jshintrc",
+		"/Users/lukap/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/gulpfile.js/config/lint.js",
+		"/Users/lukap/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/src/js/instagram.js",
+		"/Users/lukap/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/src/js/vine.js",
+		"/Users/lukap/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/src/js/twitter.js",
+		"/Users/lukap/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/src/js/storyOptimizer.js",
+		"/Users/lukap/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/src/sass/_layout/_bootstrap.scss",
+		"/Users/lukap/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/dist/dotcom-bs_plugins.js",
+		"/Users/lukap/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/dist/full width video",
+		"/Users/lukap/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/src/dotcom-bs_plugins.html",
+		"/Users/lukap/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/src/sass/_modules/_storyOptimizer.scss",
+		"/Users/lukap/Library/Application Support/Sublime Text 3/Packages/JSHint Gutter/.jshintrc",
+		"/Users/lukap/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/gulpfile.js/config/sass.js",
+		"/Users/lukap/Library/Application Support/Sublime Text 3/Packages/JSHint Gutter/JSHint.sublime-settings",
+		"/Users/lukap/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/src/js/dotcom-bs_plugins.prefix",
+		"/Users/lukap/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/src/sass/_layout/_default.scss",
+		"/Users/lukap/Sites/AOL/Bonanza AMP Plugins/MY MISC/plugin - Industry.html",
+		"/Users/lukap/Sites/AOL/AMP core/amp-core.sublime-project",
+		"/Users/lukap/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/test/bower_components/qunit/qunit/qunit.js",
+		"/Users/lukap/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/src/js/dotcom-bs_plugins.suffix",
+		"/Users/lukap/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/src/js/instagramEmbed.js",
+		"/Users/lukap/Desktop/bootstrap (1)/js/bootstrap.js",
+		"/Users/lukap/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/src/sass/_layout/_bootstrap-theme.scss",
+		"/Users/lukap/Sites/AOL/Bonanza AMP Plugins/MY MISC/slideshow_picker.js",
+		"/Users/lukap/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/dist/dotcom-bs_plugins.html",
+		"/Users/lukap/Dropbox/AOL/DEV/misc/Blogsmith PLUG-INS/plugin - Industry.html",
+		"/Users/lukap/Desktop/bootstrap/css/bootstrap-theme.css",
+		"/Users/lukap/Desktop/bootstrap/css/bootstrap.css",
+		"/Users/lukap/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/gulpfile.js/config/inlineSource.js",
+		"/Users/lukap/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/dist/NEW test.html",
+		"/Users/lukap/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/gulpfile.js/tasks/default.js",
+		"/Users/lukap/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/gulpfile.js/tasks/sass.js",
+		"/Users/lukap/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/gulpfile.js/tasks/inlineSource.js",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/AMP Bonanza - dotcom channels/blocks/layouts/views/lifestyle/lifestyle-permalink-slideshow.twig",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/AMP Bonanza - dotcom channels/blocks/global/js/scripts.twig",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/MY MISC/AOL Food - Providers/Import Providers to CMS script.js",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/AMP Bonanza - dotcom channels/.jshintrc",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/AMP Bonanza - dotcom channels/gulpfile.js/config/jshint.js",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/AMP Bonanza - dotcom channels/app/components/__tests__/awesome_spec.js",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/AMP Bonanza - dotcom channels/blocks/modules/lifestyle/top-nav-lifestyle.twig",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/AMP Bonanza - dotcom channels/app/sass/_modules/_m-dropdown.scss",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/AMP Bonanza - dotcom channels/blocks/layouts/base/base.twig",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/AMP Bonanza - dotcom channels/app/components/slideshow/main.js",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/AMP Bonanza - dotcom channels/app/components/recipe/main.js",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/AMP Bonanza - dotcom channels/app/components/recipe-of-the-day/main.js",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/AMP Bonanza - dotcom channels/assets/css/application.css",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/AMP Bonanza - dotcom channels/blocks/modules/simple-channel-common/top-nav.twig",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/AMP Bonanza - dotcom channels/blocks/modules/lifestyle/social-follow.twig",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/AMP Bonanza - dotcom channels/blocks/modules/lifestyle/latestnews.twig",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/AMP Bonanza - dotcom channels/blocks/modules/lifestyle/permalink_providers.twig",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/AMP Bonanza - dotcom channels/blocks/layouts/views/lifestyle/lifestyle-permalink-recipe.twig",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/AMP Bonanza - dotcom channels/routes.yml",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/AMP Bonanza - dotcom channels/blocks/layouts/views/lifestyle/lifestyle-permalink-default.twig",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/AMP Bonanza - dotcom channels/blocks/layouts/views/permalink.twig",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/AMP Bonanza - dotcom channels/config/config.sandbox.yml",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/AMP Bonanza - dotcom channels/gulpfile.js/tasks/watch.js",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/AMP Bonanza - dotcom channels/app/sass/_base/_config.scss",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/AMP Bonanza - dotcom channels/app/sass/_layouts/_l-desktop.scss",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/AMP Bonanza - dotcom channels/gulpfile.js/tasks/amp-sync.js",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/AMP Bonanza - dotcom channels/blocks/layouts/views/lifestyle/lifestyle-main.twig",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/AMP Bonanza - dotcom channels/blocks/layouts/views/lifestyle/lifestyle-controller.twig",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/AMP Bonanza - dotcom channels/blocks/layouts/views/lifestyle/lifestyle-wellness-main.twig",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/AMP Bonanza - dotcom channels/blocks/layouts/views/lifestyle/lifestyle-travel-main.twig",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/AMP Bonanza - dotcom channels/blocks/layouts/views/lifestyle/lifestyle-style-main.twig",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/MISC/AMP AOL.com dotcom dev key.txt",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/AMP Bonanza - dotcom channels/.amp",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/amp-fbe-test/vars.yml",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/amp-channels-test/blocks/global/css/css.twig",
+		"/Users/lukap/Sites/AOL/Bonanza AMP FBE/amp-fbe-test/.amp",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/sass/_modules/_m-recipe.scss",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/sass/_modules/_m_permalink/_mobile.scss",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/sass/_modules/_m-permalink.scss",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/src/components/permalink-sticky-nav/main.js",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/sass/_modules/_m-article.scss",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/sass/_modules/_simple_m_permalink/_simple_mobile.scss",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/sass/_modules/_m-simple-permalink.scss",
+		"/Users/lukap/Desktop/amp.phar",
+		"/Users/lukap/Sites/AOL/Bonanza/MISC/AOL Food - Plugins/AMP plugin - AOL Food Recipe Builder.html",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/src/components/recipe/main.js",
+		"/Users/lukap/Sites/AOL/Bonanza/MISC/post.json",
+		"/Users/lukap/Sites/AOL/Bonanza/MISC/AOL Food - Plugins/AMP plugin - AOL Food Recipe Builder Button.html",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/sass/_modules/_m_recipe/_mobile.scss",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/sass/_modules/_m_recipe/_mobile-landscape.scss",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/sass/_modules/_m_recipe/_tablet.scss",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/sass/_modules/_m_recipe/_desktop.scss",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/sass/bourbon/_bourbon-deprecated-upcoming.scss",
+		"/Users/lukap/Sites/AOL/Bonanza/MISC/TWIGS/show-recipe ORIGNAL.twig",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/sass/_state/_state.scss",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/sass/_modules/_m-comments.scss",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/sass/_base/_config.scss",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/sass/_base/_fonts.scss",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/sass/_base/_reset.scss",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/sass/_base/_icons_bonanza.scss",
+		"/Users/lukap/Sites/AOL/Bonanza/MISC/AOL Food - Providers/Import Providers to CMS script.js",
+		"/Users/lukap/Sites/AOL/Bonanza/MISC/AOL Food - Providers/KD_PROVIDERS_TOTAL_0209.csv",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/sass/_modules/_m_recipe/_print.scss",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/src/components/modal-display/main.js",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/src/components/slideshow/main.js",
+		"/Users/lukap/Sites/index.html",
+		"/Users/lukap/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/lukap/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/src/app.js",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/src/components/display-area/displayArea.js",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/_test/karma_sound/success.mp3",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/sass/application.scss",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/sass/_modules/_m-TODO.scss",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/sass/_modules/_m_recipe/_m_recipe_desktop.scss",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/sass/_modules/_m_recipe/_m_recipe_print.scss",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/sass/_modules/_m_recipe/_m_recipe.scss",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/sass/_modules/_m_recipe/_m_recipe_mobile.scss",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/sass/_modules/_m-recipe/_m_recipe.scss",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/src/components/dl/main.js",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/sass/_modules/_m-dropdown.scss",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/sass/neat/grid/_media.scss",
+		"/Users/lukap/Sites/AOL/Bonanza/alura/sass/neat/grid/_box-sizing.scss"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"*",
+			"",
+			"/Users/lukap/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/src/js",
+			"js/*.js",
+			"*.js",
+			"*.scss",
+			"*.scsss",
+			"*",
+			"*.js",
+			"/Users/lukap/Sites/AOL/Bonanza AMP FBE/AMP Bonanza - dotcom channels",
+			"*.js",
+			"*.twig",
+			"(.twig",
+			"*",
+			"",
+			"*.scss",
+			"*.twig",
+			"*",
+			"*.scss",
+			"*",
+			"*.twig",
+			"*.scss",
+			".scss",
+			"",
+			"*.scss",
+			"*.",
+			"*.scss",
+			"",
+			"*.scss",
+			"*.css, *.scss",
+			"",
+			"*.scss",
+			"/Users/lukap/Sites/AOL/Bonanza/alura/src/fonts",
+			"",
+			"*",
+			"*.css",
+			"*.js",
+			"*",
+			"*.js",
+			"",
+			"Stylelist - STASH/*.scss",
+			"Stylelist - STASH/*.js",
+			"Stylelist - STASH/*",
+			"Stylelist - STASH/*.scss",
+			"Stylelist - STASH/*.js",
+			"Stylelist - STASH/*.scss",
+			"Stylelist - STASH/*.js",
+			"Stylelist - STASH/*.scss",
+			"Stylelist - STASH/",
+			"Stylelist - STASH/*.scss",
+			"Stylelist - STASH/",
+			"Stylelist - STASH/*.scss",
+			"Stylelist - STASH/",
+			"Stylelist - STASH/*.js",
+			"*.scss",
+			"*.js",
+			"Stylelist - STASH/*.js",
+			"",
+			"Stylelist - STASH/**/*.js",
+			"Stylelist - STASH/*.js",
+			"",
+			"Stylelist - STASH/*.js",
+			"Stylelist - STASH/",
+			"Stylelist - STASH/*.scss",
+			"Stylelist - STASH/",
+			"Stylelist - STASH/*.scss",
+			"Stylelist - STASH/",
+			"Stylelist - STASH/*.css",
+			"Stylelist - STASH/*.scss",
+			"",
+			"*.js",
+			"Stylelist - STASH/*.js",
+			"Stylelist - STASH/",
+			"Stylelist - STASH/*.scss",
+			"Stylelist - STASH/",
+			"Stylelist - STASH/*.scss",
+			"Stylelist - STASH/",
+			"Stylelist - STASH/*.scss",
+			"Stylelist - STASH/",
+			"Stylelist - STASH",
+			"",
+			"<open folders>",
+			"*.css",
+			"<open folders>*.css",
+			"<open folders>",
+			"/Users/lukap/Dropbox/AOL/DEV/AOL WL/StyleList/Stylelist - STASH",
+			"Stylelist - STASH",
+			"/Stylelist - STASH",
+			"/Users/lukap/Dropbox/AOL/DEV/AOL WL/StyleList/Stylelist - STASH",
+			"/Stylelist\\ \\-\\ STASH",
+			"/Stylelist\\ \\-\\ STASH/",
+			"Stylelist\\ \\-\\ STASH",
+			"Stylelist\\ -\\ STASH",
+			"Stylelist - STASH",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"&",
+			"addline",
+			"addLine",
+			"share",
+			"now",
+			"post_preview",
+			"htto",
+			"SO",
+			"dialogWidth",
+			"800",
+			"slideshowID",
+			"getVideoURL",
+			"        // extract the playlist value\n        video_source = $('#SO_dialog form.active .video textarea').val();\n        pattern = /(https:\\/\\/).+(playList=\\d+)/;\n        playlist = pattern.exec(video_source);\n",
+			"req",
+			"option",
+			"validateAction",
+			"validateDropDown",
+			"addSlashes",
+			"project alura",
+			"{% endif %}\n",
+			"}\n",
+			"\"",
+			"+?",
+			"characters remaining",
+			"max char",
+			"quote",
+			"textarea",
+			"countca",
+			"textarea",
+			"validateInput",
+			"textarea",
+			"text_length",
+			"text",
+			"max",
+			"val",
+			"textarea",
+			"onC",
+			"this.va",
+			"getVideoURL",
+			"script",
+			"setToday",
+			"getVideoURL",
+			"playlist",
+			"getVideoURL",
+			"disabled",
+			"validateInput",
+			"DOTCOM.SO.out",
+			"DOTCOM.storyOptimizer",
+			"DOTCOM.so",
+			"DOTCOM.storyOptimizer.",
+			"storyOptimizer",
+			"validateAction",
+			"\"active\"",
+			"\"form\"",
+			"DOTCOM.instagram.addMore",
+			"addmore",
+			"validateInput",
+			"share_link",
+			"spre",
+			"endpoint",
+			"iconFacebook",
+			"urlIconFacebook",
+			"saveHook",
+			"saveHook\nsaveHook",
+			"saveHook",
+			"view",
+			"view.$el",
+			"ViewEntryCreateInstagram",
+			"parseEmbedSuccess",
+			"parseEmbed",
+			"$instagramTitle",
+			"   $instagramTitle",
+			"parseEmbed",
+			"columns",
+			"DOTCOM.storyOptimizer.validateDropDown",
+			"picktype",
+			"validateDropDown",
+			"validateInput",
+			"columns",
+			"form",
+			"select",
+			"disabled",
+			"textare",
+			"DOTCOM.storyOptimizer",
+			"count",
+			"validateAction",
+			"validateInput",
+			"\"#SO_dialog",
+			"DOTCOM",
+			"Vine shortcode",
+			"Vine Shortcode",
+			"html",
+			"console.log",
+			"outputMe",
+			"console",
+			"console.log",
+			"vine",
+			"maxlength",
+			"console",
+			"validateInput",
+			"has-error",
+			"spreadWord",
+			"form",
+			"form ",
+			"spreadWord",
+			"share_link",
+			"validateAction",
+			"validateInput",
+			"validateForm",
+			"actionControl",
+			"removeItem",
+			"actionControl",
+			"validateForm",
+			"validateForm\nvalidateForm",
+			"validateForm",
+			"actionControl",
+			"formValidated",
+			"();\n",
+			"validateMe",
+			"formValidated",
+			"actionControl",
+			"disab",
+			"validateForm",
+			"validateMe",
+			"disableForm",
+			"validateForm",
+			"disableForm",
+			"validateForm"
+		],
+		"highlight": true,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"DOTCOM.SO",
+			"DOTCOM.SO.",
+			"'active'",
+			"'form'",
+			"\"<div ",
+			"\"",
+			"\"Bell-Ita\"",
+			"#000"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "CMS plugins.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10833,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9937,
+								9937
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3751.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/module-quotes2.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 833,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								691,
+								692
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 258.0
+	},
+	"pinned_build_system": "",
+	"project": "Jake's Prototype.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"so",
+				"AMP Bonanza - Plugins/src/js/storyOptimizer.js"
+			],
+			[
+				"full",
+				"AMP Bonanza - Plugins/src/js/full-width-video.js"
+			],
+			[
+				"video",
+				"AMP Bonanza - Plugins/src/js/full-width-video.js"
+			],
+			[
+				"share",
+				"AMP Bonanza - Plugins/src/js/share-links.js"
+			],
+			[
+				"jshin",
+				"AMP Bonanza - Plugins/.jshintrc"
+			],
+			[
+				"count",
+				"AMP Bonanza - Plugins/src/js/countdown.js"
+			],
+			[
+				"insta",
+				"AMP Bonanza - Plugins/src/js/instagram.js"
+			],
+			[
+				"inst",
+				"AMP Bonanza - Plugins/src/js/instagram.js"
+			],
+			[
+				"intro",
+				"AMP Bonanza - Plugins/src/js/intro-paragraph.js"
+			],
+			[
+				"countdow",
+				"AMP Bonanza - Plugins/src/js/countdown.js"
+			],
+			[
+				"twitter",
+				"AMP Bonanza - Plugins/src/js/twitter.js"
+			],
+			[
+				"story",
+				"AMP Bonanza - Plugins/src/js/storyOptimizer.js"
+			],
+			[
+				"boo",
+				"AMP Bonanza - Plugins/src/sass/_layout/_bootstrap.scss"
+			],
+			[
+				"",
+				"full width video"
+			],
+			[
+				"vine",
+				"AMP Bonanza - Plugins/src/js/vine.js"
+			],
+			[
+				"twi",
+				"AMP Bonanza - Plugins/src/js/twitter.js"
+			],
+			[
+				"twitt",
+				"AMP Bonanza - Plugins/src/js/twitter.js"
+			],
+			[
+				"boot",
+				"AMP Bonanza - Plugins/src/sass/_layout/_bootstrap.scss"
+			],
+			[
+				"boots",
+				"AMP Bonanza - Plugins/src/sass/_layout/_bootstrap.scss"
+			],
+			[
+				".css",
+				"AMP Bonanza - Plugins/src/sass/_modules/_storyOptimizer.scss"
+			],
+			[
+				"jshint",
+				"AMP Bonanza - Plugins/.jshintrc"
+			],
+			[
+				"dotcom",
+				"AMP Bonanza - Plugins/src/dotcom-bs_plugins.html"
+			],
+			[
+				"storyop",
+				"AMP Bonanza - Plugins/src/js/storyOptimizer.js"
+			],
+			[
+				"js",
+				"AMP Bonanza - Plugins/.jshintrc"
+			],
+			[
+				"sh",
+				"AMP Bonanza - Plugins/src/js/share-links.js"
+			],
+			[
+				"jshi",
+				"AMP Bonanza - Plugins/.jshintrc"
+			],
+			[
+				"instra",
+				"AMP Bonanza - Plugins/src/js/instagram.js"
+			],
+			[
+				"int",
+				"AMP Bonanza - Plugins/src/js/intro-paragraph.js"
+			],
+			[
+				"hin",
+				"AMP Bonanza - Plugins/.jshintrc"
+			],
+			[
+				"tory",
+				"AMP Bonanza - Plugins/src/js/storyOptimizer.js"
+			],
+			[
+				"vine.js",
+				"AMP Bonanza - Plugins/src/js/vine.js"
+			],
+			[
+				"link",
+				"AMP Bonanza - Plugins/src/js/share-links.js"
+			],
+			[
+				"intor",
+				"AMP Bonanza - Plugins/src/js/intro-paragraph.js"
+			],
+			[
+				"indus",
+				"MY MISC/plugin - Industry.html"
+			],
+			[
+				"stor",
+				"AMP Bonanza - Plugins/src/js/storyOptimizer.js"
+			],
+			[
+				"industr",
+				"MY MISC/plugin - Industry.html"
+			],
+			[
+				"suff",
+				"AMP Bonanza - Plugins/src/js/dotcom-bs_plugins.suffix"
+			],
+			[
+				"prefi",
+				"AMP Bonanza - Plugins/src/js/dotcom-bs_plugins.prefix"
+			],
+			[
+				"vine.",
+				"AMP Bonanza - Plugins/src/js/vine.js"
+			],
+			[
+				"indust",
+				"MY MISC/plugin - Industry.html"
+			],
+			[
+				"picker",
+				"MY MISC/slideshow_picker.js"
+			],
+			[
+				"instagra",
+				"AMP Bonanza - Plugins/src/js/instagram.js"
+			],
+			[
+				"dotcom-bs",
+				"AMP Bonanza - Plugins/src/dotcom-bs_plugins.html"
+			],
+			[
+				"slide",
+				"AMP Bonanza - dotcom channels/blocks/modules/lifestyle/slideshow.twig"
+			],
+			[
+				"main.",
+				"AMP Bonanza - dotcom channels/assets/components/recipe/main.js"
+			],
+			[
+				"lifestfea",
+				"AMP Bonanza - dotcom channels/blocks/modules/lifestyle/lifestyle-featured-image.twig"
+			],
+			[
+				"main.js",
+				"AMP Bonanza - dotcom channels/assets/components/recipe/main.js"
+			],
+			[
+				"main",
+				"AMP Bonanza - dotcom channels/app/components/slideshow/main.js"
+			],
+			[
+				"m-dro",
+				"AMP Bonanza - dotcom channels/app/sass/_modules/_m-dropdown.scss"
+			],
+			[
+				"top-nav",
+				"AMP Bonanza - dotcom channels/blocks/modules/simple-channel-common/top-nav.twig"
+			],
+			[
+				"permale",
+				"AMP Bonanza - dotcom channels/blocks/layouts/views/lifestyle/lifestyle-permalink-default.twig"
+			],
+			[
+				"late",
+				"AMP Bonanza - dotcom channels/blocks/modules/lifestyle/latestnews.twig"
+			],
+			[
+				"permali",
+				"AMP Bonanza - dotcom channels/blocks/layouts/views/permalink.twig"
+			],
+			[
+				"m_re",
+				"alura/sass/_modules/_m-recipe.scss"
+			],
+			[
+				"perma",
+				"alura/sass/_modules/_m-permalink.scss"
+			],
+			[
+				"_art",
+				"alura/sass/_modules/_m-article.scss"
+			],
+			[
+				"recipe",
+				"MISC/AOL Food - Plugins/AMP plugin - AOL Food Recipe Builder.html"
+			],
+			[
+				"button",
+				"MISC/AOL Food - Plugins/AMP plugin - AOL Food Recipe Builder Button.html"
+			],
+			[
+				"bour",
+				"alura/sass/bourbon/_bourbon-deprecated-upcoming.scss"
+			],
+			[
+				"original",
+				"MISC/TWIGS/show-recipe ORIGNAL.twig"
+			],
+			[
+				"_m_comm",
+				"alura/sass/_modules/_m-comments.scss"
+			],
+			[
+				"_stat",
+				"alura/sass/_state/_state.scss"
+			],
+			[
+				"reset",
+				"alura/sass/_base/_reset.scss"
+			],
+			[
+				"_icon",
+				"alura/sass/_base/_icons_bonanza.scss"
+			],
+			[
+				"provider",
+				"MISC/AOL Food - Providers/KD_PROVIDERS_TOTAL_0209.csv"
+			],
+			[
+				"provide",
+				"MISC/AOL Food - Providers/Import Providers to CMS script.js"
+			],
+			[
+				"aolfood",
+				"MISC/AOL Food - Plugins/AMP plugin - AOL Food Recipe Builder.html"
+			],
+			[
+				"app.",
+				"alura/src/app.js"
+			],
+			[
+				"depre",
+				"alura/sass/bourbon/_bourbon-deprecated-upcoming.scss"
+			],
+			[
+				"_box",
+				"alura/sass/neat/grid/_box-sizing.scss"
+			],
+			[
+				"_bour",
+				"alura/sass/bourbon/_bourbon-deprecated-upcoming.scss"
+			],
+			[
+				"todo",
+				"alura/sass/_modules/_m-TODO.scss"
+			],
+			[
+				"applica",
+				"alura/src/css/application.css"
+			],
+			[
+				"icon",
+				"alura/sass/_base/_icons_bonanza.scss"
+			],
+			[
+				"recipemain",
+				"alura/src/components/recipe/main.js"
+			],
+			[
+				"_mixi",
+				"alura/sass/_tools/_mixins.scss"
+			],
+			[
+				"plugin",
+				"MISC/AOL Food - Plugins/AMP plugin - AOL Food Recipe Builder.html"
+			],
+			[
+				"origina",
+				"MISC/TWIGS/show-recipe ORIGNAL.twig"
+			],
+			[
+				"list",
+				"MISC/AOL Food - Plugins/AMP plugin - AOL Food hidden LIST POST.html"
+			],
+			[
+				"_font",
+				"alura/sass/_base/_fonts.scss"
+			],
+			[
+				"font",
+				"alura/sass/_base/_fonts.scss"
+			],
+			[
+				"icons",
+				"alura/sass/_base/_icons.scss"
+			],
+			[
+				"fonts",
+				"alura/sass/_base/_fonts.scss"
+			],
+			[
+				"l-de",
+				"alura/sass/_layouts/_l-desktop.scss"
+			],
+			[
+				"boiler",
+				"alura/src/components/_boilerplate/boilerplate.css"
+			],
+			[
+				"app.js",
+				"alura/src/app.js"
+			],
+			[
+				"works",
+				"MISC/AOL Food plugins/AMP plugin - AOL Food Recipe Builder WORKS.html"
+			],
+			[
+				"edit",
+				"MISC/AOL Food plugins/AMP plugin - AOL Food hidden CREATE & EDIT POST.html"
+			],
+			[
+				"sl_",
+				"Stylelist - STASH/js/scripts/sl_06_hgf.js"
+			],
+			[
+				"mobile",
+				"Stylelist - STASH/scss/mobile/mobile.scss"
+			],
+			[
+				".js",
+				"Stylelist - STASH/js/sl.js"
+			],
+			[
+				"sl.",
+				"Stylelist - STASH/js/sl.js"
+			],
+			[
+				"grunt",
+				"Stylelist - STASH/Gruntfile.js"
+			],
+			[
+				"dev.js",
+				"Stylelist - STASH/dev.json"
+			],
+			[
+				".rb",
+				"Stylelist - STASH/config.rb"
+			],
+			[
+				"kno",
+				"www/mobile_galleries/knot-blogsmith.js"
+			],
+			[
+				"sl",
+				"Stylelist - STASH/js/sl.js"
+			],
+			[
+				"grun",
+				"Stylelist - STASH/Gruntfile.js"
+			],
+			[
+				"layou",
+				"Stylelist - STASH/scss/mobile/mobile/_layout.scss"
+			],
+			[
+				"rese",
+				"Stylelist - STASH/css/knot/reset.css"
+			],
+			[
+				"debug",
+				"Stylelist - STASH/scss/knot/_knot_debug.scss"
+			],
+			[
+				"sl_s",
+				"Stylelist - STASH/js/scripts/sl_05_stylelist.js"
+			],
+			[
+				"conf",
+				"Stylelist - STASH/config.rb"
+			],
+			[
+				"tablet",
+				"Stylelist - STASH/css/mobile/tablet.css"
+			],
+			[
+				"knot.",
+				"Stylelist - STASH/js/scripts/jquery.knot.js"
+			],
+			[
+				"blogsmi",
+				"www/mobile_galleries/knot-blogsmith_LIVE.js"
+			],
+			[
+				"parse",
+				"www/what to wear/skye parser.html"
+			],
+			[
+				"knot",
+				"www/mobile_galleries/knot-blogsmith.js"
+			],
+			[
+				"varia",
+				"Stylelist - STASH/scss/mobile/_variables.scss"
+			],
+			[
+				"knotmobile",
+				"Stylelist - STASH/scss/knot/_knot_stylelist_mobile.scss"
+			],
+			[
+				"css",
+				"Stylelist - STASH/scss/mobile/_old_css.scss"
+			],
+			[
+				"knot_mo",
+				"Stylelist - STASH/scss/knot/_knot_stylelist_mobile.scss"
+			],
+			[
+				"comm",
+				"Stylelist - STASH/scss/_common.scss"
+			],
+			[
+				"commo",
+				"Stylelist - STASH/scss/_common.scss"
+			],
+			[
+				"weather",
+				"Stylelist - STASH/scss/mobile/mobile/_weather.scss"
+			],
+			[
+				"navi",
+				"Stylelist - STASH/scss/mobile/mobile/_navigation.scss"
+			],
+			[
+				"desk",
+				"Stylelist - STASH/css/mobile/desktop.css"
+			],
+			[
+				"_commo",
+				"Stylelist - STASH/scss/_common.scss"
+			],
+			[
+				"knot_",
+				"Stylelist - STASH/scss/_knot_stylelist.scss"
+			],
+			[
+				"test",
+				"Stylelist - STASH/misc/selenium/test_responsive_layout.rb"
+			],
+			[
+				"purge",
+				"Stylelist - STASH/misc/purge_css.txt"
+			],
+			[
+				"_comm",
+				"Stylelist - STASH/scss/_common.scss"
+			],
+			[
+				"table",
+				"Stylelist - STASH/css/mobile/tablet.css"
+			],
+			[
+				"mobile.css",
+				"Stylelist - STASH/scss/mobile/mobile.scss"
+			],
+			[
+				"mobile.",
+				"Stylelist - STASH/css/mobile/mobile.css"
+			],
+			[
+				"knotta",
+				"Stylelist - STASH/scss/knot/_knot_stylelist_tablet.scss"
+			],
+			[
+				"tablet.",
+				"Stylelist - STASH/css/mobile/tablet.css"
+			],
+			[
+				"old",
+				"Stylelist - STASH/scss/mobile/_old_css.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Sites/AOL/Bonanza AMP FBE/Bonanza AMP FBE.sublime-project"
+			],
+			[
+				"bona",
+				"~/Sites/AOL/Bonanza AMP FBE/Bonanza AMP FBE.sublime-project"
+			],
+			[
+				"style",
+				"~/Dropbox/AOL/DEV/AOL WL/StyleList/StyleList.sublime-project"
+			],
+			[
+				"s",
+				"~/Dropbox/AOL/DEV/AOL WL/StyleList/StyleList.sublime-project"
+			],
+			[
+				"sty",
+				"~/Dropbox/AOL/DEV/AOL WL/StyleList/StyleList.sublime-project"
+			],
+			[
+				"weather",
+				"~/Dropbox/AOL/DEV/AOL.com/weather.aol.com/weather.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 314.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

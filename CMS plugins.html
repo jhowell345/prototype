@@ -1,0 +1,282 @@
+-<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Twitter Bootstrap Exercise</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/modal1.js"></script>
+    <script src="js/modal2.js"></script>
+    <script src="js/modal3.js"></script>
+    <script src="js/modal4.js"></script>
+
+  </head>
+
+  <body>
+    <div id="header"><h1><b>Jake's Bootstrap Exercise</b></h1></div>
+
+    <div class="row" style="margin:100px auto; padding:30px; border: 2px; width:100%">
+
+    <!-- LEFT RAIL -->
+    <div class="col-md-6 left-rail">
+      <div class="form-group">
+        <label for="comment">Content Here:</label>
+        <textarea class="form-control" rows="10" style="width:90%" id="comment"></textarea>
+      </div>
+    </div>
+
+    <!-- RIGHT RAIL -->
+    <div class="col-md-6 right-rail">
+
+      <!-- Trigger the modal with a button [QUOTES 1] -->
+      <br>
+      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#quotes1">
+        <span class="glyphicon glyphicon-plus-sign"></span>Insert Share Lines or Quote I
+      </button><br>
+
+      <!-- Modal -->
+      <div id="quotes1" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header" style="background-color:lightgrey">
+              <h4 class="modal-title">Insert Share Lines or Quote</h4>
+            </div>
+            <div class="container-fluid">
+              <form action="">
+                <h5><b>Share link type</b></h5>
+                <!-- Dropdown menu -->
+                <select name="Quote" style="font-size:24px">
+                  <option value="image">Image</option>
+                  <option value="text">Text</option>
+                  <option value="social-media">Social Media</option>
+                </select>
+
+                <hr />
+
+                <p class="note">NOTE: Max 150 characters for Author & Author Description, 250 characters for Quote. All text fields required.</p>
+
+                <h5><b>Author</b></h5>
+                <div>
+                  <input type="text" name="author" placeholder="Author" style="width:90%" maxlength="150" required>
+                </div>
+
+                <h5><b>Author Description</b></h5>
+
+                <div>
+                  <input type="text" name="authordescription" placeholder="Author Description" style="width:90%" maxlength="150" required>
+                </div>
+
+                <br />
+
+                <div class="form-group">
+                  <label for="comment">Quote (max 250 char)</label>
+                  <textarea class="form-control" id="comment" placeholder="Type/paste Quote here!" style="margin-top: 0px; margin-bottom: 0px; height: 158px; width: 90%" maxlength="250" required></textarea>
+                  <input type="checkbox" name="QotD"> Quote of the day?
+                </div>
+              </form>
+            </div>
+            <br>
+            <div class="modal-footer">
+
+              <button type="button" class="btn btn-primary add_shortcode">Insert Shortcode</button>
+              <button type="button" class="btn btn-default close-me" data-dismiss="modal">Close</button>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Trigger the modal with a button [QUOTES 2] -->
+      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#quotes2">
+        <span class="glyphicon glyphicon-plus-sign"></span>Insert Share Lines or Quote II
+      </button><br>
+
+
+      <!-- Modal -->
+      <div id="quotes2" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header"  style="background-color:lightgrey">
+              <h4 class="modal-title">Insert Share Lines or Quote</h4>
+            </div>
+            <div class="container-fluid">
+              <form>
+                <h5>Share link type</h5>
+
+                <!-- Dropdown Menu -->
+                <select name="Quote" style="font-size:24px">
+                  <option value="image">Image</option>
+                  <option value="text">Text</option>
+                  <option value="social-media">Social Media</option>
+                </select>
+
+                <hr>
+
+                <p class="note">NOTE: max 150 character per Share Line</p>
+
+                <h5></h5>
+
+                <div class="form-group">
+                  <label for="caption">Share Line 1</label>
+                  <input type="text" class="form-control" name="shareline1" placeholder="Type/paste Share Line here!" style="width:90%" maxlength="150" required>
+                </div>
+
+                <!-- <div id="share">TEST</div> -->
+                </form>
+            </div>
+            <br>
+
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success add_new_line">Add</button>
+                <button type="button" class="btn btn-primary add_shortcode">Insert Shortcode</button>
+                <button type="button" class="btn btn-default close-me" data-dismiss="modal">Close</button>
+              </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Trigger the modal with a button [Instagram]-->
+      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#instagram">
+        <span class="glyphicon glyphicon-plus-sign"></span>Insert Instagram
+      </button><br>
+      <!-- Modal -->
+      <div id="instagram" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header"  style="background-color:lightgrey">
+              <h4 class="modal-title">Instagram Shortcode</h4>
+            </div>
+            <div class="container-fluid">
+            <form>
+                <div class="col-sm-3">
+                  <h5>Columns</h5>
+                  <select name="Columns" style="font-size:24px">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                </div>
+
+                <div class="col-sm-3">
+                  <h5> Hide Captions</h5>
+                  <select name="yesorno" style="font-size:24px">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                  </select>
+                </div>
+                <br><br><br><br>
+                <hr>
+
+                <p class="note">Note: Instagram URL must start with<span style="font-family:courier"> https://instagram.com/.</span>Please add more URLs before choosing number of columns.</p>
+
+                <br>
+
+                <h5> Instagram URL 1</h5>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="shareline" placeholder="Type/paste Instagram URL here!" style="width:90%" maxlength="150" required>
+                </div>
+              </form>
+            </div>
+            <br>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success add_new_line">Add</button>
+                <button type="button" class="btn btn-primary add_shortcode">Insert Shortcode</button>
+                <button type="button" class="btn btn-default close-me" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Trigger the modal with a button [Countdown] -->
+      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#countdown">
+        <span class="glyphicon glyphicon-plus-sign"></span>Insert Countdown
+      </button><br>
+      <!-- Modal -->
+        <div id="countdown" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header" style="background-color:lightgrey">
+                <h4 class="modal-title" >Insert Countdown</h4>
+              </div>
+
+              <br>
+              <div class= "container-fluid">
+
+
+                  <div style="background-color:lightblue">
+                    <p class="note">NOTE: Countdown Caption required</p>
+                  </div>
+                <form>
+                  <div class="col-md-6">
+
+                    <fieldset>
+                    <legend style="font-size:16px">End Date</legend>
+                      <input type="date" name="date">
+                    </fieldset>
+
+                  </div>
+                  <div class="col-md-6">
+
+                    <fieldset>
+                    <legend style="font-size:16px">End Time</legend>
+                      <input type="time" name="time">
+                    </fieldset>
+
+                  </div>
+
+                  <br><br><br>
+                  <hr>
+
+                  <div class="form-group">
+                    <label for="caption">Countdown Caption (max 250 char)</label>
+
+                    <textarea class="form-control" id="caption" placeholder="Type/paste your Countdown Caption here!" style="margin-top: 0px 16px 0px 0px; height: 130px; width:90%" maxlength="250" required name="caption"></textarea>
+                  </div>
+
+                  <br>
+                </form>
+              </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary add_shortcode">Insert Shortcode</button>
+                  <button type="button" class="btn btn-default close-me" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    <!-- END ROW-->
+    </div>
+
+  </body>
+</html
