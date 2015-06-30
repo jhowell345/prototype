@@ -35,6 +35,28 @@ $(document).ready(function() {
         $("#quotesorshareline .close-me").click();
         console.log("closing modal")
     }
+
+
+    $("#quotesorshareline .add_new_line").on("click", addShareline);
+
+    function addShareline() {
+        var html = "",
+            count = $("#quotesorshareline input").length - 2;
+
+
+        html +='<div class="form-group">'
+        html +='  <label for="caption">Share Line ' + count + '</label>'
+        html +='  <input type="text" class="form-control" name="shareline' + count + '" placeholder="Type/paste Share Line here!" style="width:90%" maxlength="150" required>'
+        html +='</div>'
+
+        // document.getElementById("share").innerHTML(html);
+
+        $("#quotesorshareline .form-group:last").after(html);
+
+        console.log("Adding new line");
+
+    }
+
  });
 
     

@@ -19,7 +19,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/modal1.js"></script>
-    <script src="js/modal2.js"></script>
     <script src="js/modal3.js"></script>
     <script src="js/modal4.js"></script>
 
@@ -44,7 +43,7 @@
       <!-- Trigger the modal with a button [QUOTE OR SHARELINE] -->
       <br>
       <button id="quoteorsharelinebutton" type="button" class="btn btn-success" data-toggle="modal" data-target="#quotesorshareline">
-        <span class="glyphicon glyphicon-plus-sign"></span>Insert Share Lines or Quote I
+        <span class="glyphicon glyphicon-plus-sign"></span>Insert Share Lines or Quote
       </button><br>
 
       <!-- Modal -->
@@ -111,63 +110,11 @@
             </div>
             <br>
             <div class="modal-footer">
-              <button class="reveal" type="button" class="btn btn-success add_new_line shareline">Add</button>
-              <button class="reveal" type="button" class="btn btn-primary add_shortcode">Insert Shortcode</button>
+              <button type="button" class="btn btn-success add_new_line reveal shareline">Add</button>
+              <button type="button" class="btn btn-primary add_shortcode reveal">Insert Shortcode</button>
               <button type="button" class="btn btn-default close-me" data-dismiss="modal">Close</button>
 
             </div>
-          </div>
-
-        </div>
-      </div>
-
-
-      <!-- Trigger the modal with a button [QUOTES 2] -->
-      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#quotes2">
-        <span class="glyphicon glyphicon-plus-sign"></span>Insert Share Lines or Quote II
-      </button><br>
-
-
-      <!-- Modal -->
-      <div id="quotes2" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-
-          <!-- Modal content -->
-          <div class="modal-content">
-            <div class="modal-header"  style="background-color:lightgrey">
-              <h4 class="modal-title">Insert Share Lines or Quote</h4>
-            </div>
-            <div class="container-fluid">
-              <form>
-                <h5>Share link type</h5>
-
-                <!-- Dropdown Menu -->
-                <select name="Quote" style="font-size:24px">
-                  <option value="image">Image</option>
-                  <option value="text">Text</option>
-                  <option value="social-media">Social Media</option>
-                </select>
-
-                <hr>
-
-                <p class="note">NOTE: max 150 character per Share Line</p>
-
-                <div class="form-group shareline">
-                  <label for="caption">Share Line 1</label>
-                  <input type="text" class="form-control" name="shareline1" placeholder="Type/paste Share Line here!" style="width:90%" maxlength="150" required>
-                </div>
-
-                <!-- <div id="share">TEST</div> -->
-                </form>
-            </div>
-            <br>
-
-              <div class="modal-footer">
-                <button type="button" class="btn btn-success add_new_line">Add</button>
-                <button type="button" class="btn btn-primary add_shortcode">Insert Shortcode</button>
-                <button type="button" class="btn btn-default close-me" data-dismiss="modal">Close</button>
-              </div>
-
           </div>
 
         </div>
