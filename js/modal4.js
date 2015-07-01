@@ -1,4 +1,15 @@
 $(document).ready(function() {
+
+    var text_max = 250;
+    $(".countdowncountdown").text(text_max + " characters remaining.");
+
+    $(".countdowntext").keyup(function() {
+        var text_length = $(".countdowntext").val().length;
+        var text_remaining = text_max - text_length;
+
+        $(".countdowncountdown").text(text_remaining + " characters remaining");
+    });
+
 	$("#countdown .add_shortcode").on("click", addCountShortcode);
     
    function addCountShortcode() {
