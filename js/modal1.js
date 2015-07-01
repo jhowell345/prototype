@@ -1,6 +1,18 @@
 $(document).ready(function() {
+
+    var text_max = 250;
+    $(".quotecountdown").text(text_max + " characters remaining.");
+
+    $(".quotetext").keyup(function() {
+        var text_length = $(".quotetext").val().length;
+        var text_remaining = text_max - text_length;
+
+        $(".quotecountdown").text(text_remaining + " characters remaining");
+    });
+
     $("#quoteorsharelinebutton").on("click", hideAll);
-        function hideAll() {
+    
+    function hideAll() {
             $(".reveal").hide()
     }
 
@@ -63,7 +75,6 @@ $(document).ready(function() {
      };
 
         // document.getElementById("share").innerHTML(html);
-
 
 
 
