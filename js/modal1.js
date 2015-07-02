@@ -16,11 +16,12 @@ $(document).ready(function() {
         }
     });
 
+
     $("#quoteorsharelinebutton").on("click", hideAll);
-    
+   
     function hideAll() {
             $(".reveal").hide()
-    }
+    };
 
     $("#quotesorshareline .quotebutton").on("click", hideShareLine);
 
@@ -28,8 +29,8 @@ $(document).ready(function() {
         $(".reveal").show();
         $(".shareline").hide();
         $(".quote").show();
-        document.getElementById("selector").innerHTML = "Quote"       
-    }
+        document.getElementById("selector").innerHTML = "Quote";      
+    };
 
     $("#quotesorshareline .sharelinebutton").on("click", hideQuote);
 
@@ -38,8 +39,8 @@ $(document).ready(function() {
         $(".quote").hide();
         $(".shareline").show();
         $(".remove").hide();
-        document.getElementById("selector").innerHTML = "Share Line"     
-    }
+        document.getElementById("selector").innerHTML = "Share Line";    
+    };
     
     $("#quotesorshareline .add_shortcode").on("click", addShortcode1);
 
@@ -47,13 +48,20 @@ $(document).ready(function() {
 
         // TODO - this is basic output from the form
         var shortcode = $("#quotesorshareline form").serialize();
-        $("#comment").text(shortcode);
-        console.log("adding shortcode for Quotes1: " + shortcode);
 
-        // close the modal
-        $("#quotesorshareline .close-me").click();
-        console.log("closing modal")
-    }
+        if ($("#author").val().length == 0 || $("#authordescription").val().length == 0 || $(".quotetext").val().length == 0) {
+            $("#puma").text("All text fields are required");
+        }
+        else {
+            $("#comment").text(shortcode);
+            console.log("adding shortcode for Quotes1: " + shortcode);
+
+            // close the modal
+            $("#quotesorshareline .close-me").click();
+            console.log("closing modal");
+            console.log($("#author").val().length)
+        }
+    };
 
 
     $("#quotesorshareline .add_new_line").on("click", addShareline);
