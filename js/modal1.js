@@ -8,6 +8,12 @@ $(document).ready(function() {
         var text_remaining = text_max - text_length;
 
         $(".quotecountdown").text(text_remaining + " characters remaining");
+        if (text_remaining<=10) {
+            $("#jungle").css("color","red");
+        }
+        if (text_remaining>10) {
+            $("#jungle").css("color","grey");
+        }
     });
 
     $("#quoteorsharelinebutton").on("click", hideAll);
@@ -56,20 +62,20 @@ $(document).ready(function() {
         var html = "",
             count = $("#quotesorshareline input").length-2;
             
-        html +='<div class="form-group shareline test">'
+        html +='<div class="form-group shareline cheetah">'
         html +='  <label for="caption">Share Line ' + count + '</label>'
         html +='  <input type="text" class="form-control" name="shareline' + count + '" placeholder="Type/paste Share Line here!" style="width:90%" maxlength="150" required>'
         html +='</div>'
         $(".remove").show()
         $("#quotesorshareline .form-group:last").after(html);
 
-        console.log("Adding new line");
+        console.log("Adding line " + count);
     };
 
     $(".remove").on("click", removeShareline)
     
     function removeShareline() {
-        $(".test:last-child").remove();
+        $(".cheetah:last-child").remove();
         var count = $("#quotesorshareline input").length-2;
         console.log("Removing line " + count)
      };
