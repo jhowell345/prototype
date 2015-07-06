@@ -311,15 +311,7 @@
 			"file": "CMS plugins.html",
 			"settings":
 			{
-				"buffer_size": 10833,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/module-quotes2.js",
-			"settings":
-			{
-				"buffer_size": 833,
+				"buffer_size": 10887,
 				"line_ending": "Unix"
 			}
 		}
@@ -719,11 +711,11 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/lukapirl/github/prototype",
-		"/Users/lukapirl/github/prototype/js"
+		"/Users/jahowell46/Downloads/Github/Prototype Project/prototype"
 	],
 	"file_history":
 	[
+		"/Users/jahowell46/Downloads/Github/Prototype Project/prototype/js/module-quotes2.js",
 		"/Users/lukapirl/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/src/js/storyOptimizer.js",
 		"/Users/lukapirl/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/src/sass/_layout/_default.scss",
 		"/Users/lukapirl/Sites/AOL/Bonanza AMP Plugins/AMP Bonanza - Plugins/src/js/full-width-video.js",
@@ -850,8 +842,7 @@
 		"/Users/lukap/Sites/AOL/Bonanza/alura/sass/_modules/_m-recipe/_m_recipe.scss",
 		"/Users/lukap/Sites/AOL/Bonanza/alura/src/components/dl/main.js",
 		"/Users/lukap/Sites/AOL/Bonanza/alura/sass/_modules/_m-dropdown.scss",
-		"/Users/lukap/Sites/AOL/Bonanza/alura/sass/neat/grid/_media.scss",
-		"/Users/lukap/Sites/AOL/Bonanza/alura/sass/neat/grid/_box-sizing.scss"
+		"/Users/lukap/Sites/AOL/Bonanza/alura/sass/neat/grid/_media.scss"
 	],
 	"find":
 	{
@@ -1117,7 +1108,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -1126,15 +1117,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10833,
+						"buffer_size": 10887,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9937,
-								9937
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1142,34 +1133,6 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3751.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "js/module-quotes2.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 833,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								691,
-								692
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

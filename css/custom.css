@@ -38,3 +38,7 @@ p.note {
 	width: 730px;
 	height: 100px;
 }
+
+#quotesorshareline .reveal {
+	display: none;
+}

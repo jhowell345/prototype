@@ -16,19 +16,57 @@ $(document).ready(function() {
         }
     });
 
+    // $("#quotesorshareline input").toggleClass(".has-error",function(index,currentclass),switch)
 
-    $("#quoteorsharelinebutton").on("click", hideAll);
-   
-    function hideAll() {
-            $(".reveal").hide()
-    };
+///////
+
+// validation
+$('.modal').on('blur keyup', 'form.quote input:required, .quote textarea:required', function () {
+    validateInput(this);
+});
+
+
+function validateInput (item) {
+
+        var pattern = '',
+            item_value = $(item).val(),
+            type = $('.modal .dropdown-toggle').text();
+
+        console.log("item: " + item);
+        console.log("item_value: " + item_value);
+
+        switch(type) {
+        case('Quote'):
+            pattern = /[\s\S]/;
+            break;
+        case('Share Line'):
+            pattern = /[\s\S]/;
+            break;
+        }
+
+        if (item_value.match(pattern) && item_value !== '' ) {
+            console.log("pattern OK!");
+            $(item).parent('.form-group').removeClass('has-error');
+            $(item).parent('.form-group').addClass('has-success');
+        } else {
+            console.log("pattern NOT OK!");
+            $(item).parent('.form-group').addClass('has-error');
+            $(item).parent('.form-group').removeClass('has-success');
+        }
+    }
+
+///////
+
+
+
+
 
     $("#quotesorshareline .quotebutton").on("click", hideShareLine);
 
     function hideShareLine() {
         $(".reveal").show();
-        $(".shareline").hide();
-        $(".quote").show();
+        $("#quotesorshareline .shareline").hide();
+        $("#quotesorshareline .quote").show();
         document.getElementById("selector").innerHTML = "Quote";      
     };
 
