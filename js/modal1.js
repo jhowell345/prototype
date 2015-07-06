@@ -16,24 +16,22 @@ $(document).ready(function() {
         }
     });
 
-    // $("#quotesorshareline input").toggleClass(".has-error",function(index,currentclass),switch)
+   
 
 ///////
 
 // validation
-$('.modal').on('blur keyup', 'form.quote input:required, .quote textarea:required', function () {
+$('#author, #authordescription, #quotecontent, input.shareline').on('keyup', function () { 
     validateInput(this);
 });
 
 
-function validateInput (item) {
+function validateInput(item) {
 
         var pattern = '',
             item_value = $(item).val(),
             type = $('.modal .dropdown-toggle').text();
 
-        console.log("item: " + item);
-        console.log("item_value: " + item_value);
 
         switch(type) {
         case('Quote'):
@@ -45,11 +43,11 @@ function validateInput (item) {
         }
 
         if (item_value.match(pattern) && item_value !== '' ) {
-            console.log("pattern OK!");
+
             $(item).parent('.form-group').removeClass('has-error');
             $(item).parent('.form-group').addClass('has-success');
         } else {
-            console.log("pattern NOT OK!");
+
             $(item).parent('.form-group').addClass('has-error');
             $(item).parent('.form-group').removeClass('has-success');
         }
@@ -86,8 +84,21 @@ function validateInput (item) {
 
         // TODO - this is basic output from the form
         var shortcode = $("#quotesorshareline form").serialize();
+        var linktype = $('.modal .dropdown-toggle').text();
+        if (linktype==="Share Line") { 
+            if ($("input.shareline").val().length == 0) {
+                $("#puma").text("All text fields are required");
+            }
+            else {
+                $("#comment").text(shortcode);
+                console.log("adding shortcode for Quotes1: " + shortcode);
 
-        if ($("#author").val().length == 0 || $("#authordescription").val().length == 0 || $(".quotetext").val().length == 0) {
+                // close the modal
+                $("#quotesorshareline .close-me").click();
+                console.log("closing modal");            
+            }
+        }
+        else if ($("#author").val().length == 0 || $("#authordescription").val().length == 0 || $(".quotetext").val().length == 0) {
             $("#puma").text("All text fields are required");
         }
         else {
@@ -97,7 +108,7 @@ function validateInput (item) {
             // close the modal
             $("#quotesorshareline .close-me").click();
             console.log("closing modal");
-            console.log($("#author").val().length)
+
         }
     };
 
@@ -108,9 +119,9 @@ function validateInput (item) {
         var html = "",
             count = $("#quotesorshareline input").length-2;
             
-        html +='<div class="form-group shareline cheetah">'
+        html +='<div class="form-group shareline cheetah has-error">'
         html +='  <label for="caption">Share Line ' + count + '</label>'
-        html +='  <input type="text" class="form-control" name="shareline' + count + '" placeholder="Type/paste Share Line here!" style="width:90%" maxlength="150" required>'
+        html +='  <input type="text" class="form-control shareline" name="shareline' + count + '" placeholder="Type/paste Share Line here!" style="width:90%" maxlength="150" required>'
         html +='</div>'
         $(".remove").show()
         $("#quotesorshareline .form-group:last").after(html);

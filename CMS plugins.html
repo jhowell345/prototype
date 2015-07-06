@@ -19,8 +19,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/modal1.js"></script>
+    <script src="js/modal2.js"></script>
     <script src="js/modal3.js"></script>
-    <script src="js/modal4.js"></script>
 
   </head>
 
@@ -86,14 +86,14 @@
 
                   <div class="form-group has-error" style="display: block">
                     <label for="authordescription">Author Description</label>
-                    <input id="authordescription" class="quote form-control" type="text" name="authordescription" placeholder="Author Description" style="width:90%;s display:block" maxlength="150" required>
+                    <input id="authordescription" class="quote form-control" type="text" name="authordescription" placeholder="Author Description" style="width:90%; display:block" maxlength="150" required>
                   </div>
 
                   <br />
 
-                  <div class="form-group quote">
+                  <div class="form-group quote has-error">
                     <label for="comment">Quote (max 250 char)</label>
-                    <textarea class="form-control quotetext" name="comment" placeholder="Type/paste Quote here!" style="margin-top: 0px; margin-bottom: 0px; height: 158px; width: 90%; max-width: 90%" maxlength="250" required></textarea><span id="jungle" style="font-size:12px; color:grey" class="quotecountdown"></span>
+                    <textarea class="form-control quotetext" id="quotecontent" name="comment" placeholder="Type/paste Quote here!" style="margin-top: 0px; margin-bottom: 0px; height: 158px; width: 90%; max-width: 90%" maxlength="250" required></textarea><span id="jungle" style="font-size:12px; color:grey" class="quotecountdown"></span>
                     <br/>
                     <input type="checkbox" name="qotd"> Quote of the day?
                   </div>
@@ -171,7 +171,7 @@
                 <br>
 
                 <h5> Instagram URL 1</h5>
-                <div class="form-group cobra">
+                <div class="form-group cobra has-error">
                   <input type="text" class="form-control" name="shareline" placeholder="Type/paste Instagram URL here!" style="width:90%" maxlength="150" required>
                 </div>
               </form>
