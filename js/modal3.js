@@ -20,14 +20,19 @@ $(document).ready(function() {
     
     function addCountShortcode() {
 
-    // TODO - this is basic output from the form
-    var shortcode = $("#countdown form").serialize();
-    $("#comment").text(shortcode);
-    console.log("adding shortcode for Countdown: " + shortcode);
+        // TODO - this is basic output from the form
+        if ($("#countdown .form-group").hasClass("has-success")) {
+            var shortcode = $("#countdown form").serialize();
+            $("#comment").text(shortcode);
+            console.log("adding shortcode for Countdown: " + shortcode);
 
-    // close the modal
-    $("#countdown .close-me").click();
-    console.log("closing modal")
+            // close the modal
+            $("#countdown .close-me").click();
+            console.log("closing modal");
+        }
+        else {
+            alert("Countdown Caption required");
+        }
     };
 
     $(".countdowntext").on("keyup blur", function() {

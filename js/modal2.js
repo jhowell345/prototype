@@ -7,12 +7,12 @@ $(document).ready(function() {
     
 // validation
     $('#instagram').on('keyup blur', 'input.url', function () { 
-        validateInput(this);
+        validateInput2(this);
     });
 
 
-    function validateInput(item) {
-        console.log($(item).val());
+    function validateInput2(item) {
+
         var pattern = 'https://instagram.com/',
             item_value = $(item).val(),
             type = $('.modal .dropdown-toggle').text();
@@ -26,7 +26,7 @@ $(document).ready(function() {
             $(item).parent('.form-group').addClass('has-error');
             $(item).parent('.form-group').removeClass('has-success');
         }
-    }
+    };
 
     function addLine() {
         var html = "",
@@ -41,7 +41,6 @@ $(document).ready(function() {
         // document.getElementById("share").innerHTML(html);
         $(".remove_url").show()
         $("#instagram .form-group:last").after(html);
-        $("#columncount").text(count);
 
         console.log("Adding line " + count);
 
@@ -72,11 +71,10 @@ $(document).ready(function() {
             case 2:
                 $(".remove_url").hide();
                 $(".cobra:last-child").remove();
-                $("#columncount").text(count);
+
                 break;
             default:
                 $(".cobra:last-child").remove();
-                $("#columncount").text(count);
                 break;
         }
 

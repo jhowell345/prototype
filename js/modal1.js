@@ -22,11 +22,11 @@ $(document).ready(function() {
 
 // validation
 $('.modal').on('keyup blur', "#author, #authordescription, #quotecontent, input.shareline", function () { 
-    validateInput(this);
+    validateInput1(this);
 });
 
 
-function validateInput(item) {
+function validateInput1(item) {
 
         var pattern = '',
             item_value = $(item).val(),
