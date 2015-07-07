@@ -21,7 +21,7 @@ $(document).ready(function() {
 ///////
 
 // validation
-$('#author, #authordescription, #quotecontent, input.shareline').on('keyup', function () { 
+$('.modal').on('keyup blur', "#author, #authordescription, #quotecontent, input.shareline", function () { 
     validateInput(this);
 });
 
@@ -34,12 +34,12 @@ function validateInput(item) {
 
 
         switch(type) {
-        case('Quote'):
-            pattern = /[\s\S]/;
-            break;
-        case('Share Line'):
-            pattern = /[\s\S]/;
-            break;
+            case('Quote'):
+                pattern = /[\s\S]/;
+                break;
+            case('Share Line'):
+                pattern = /[\s\S]/;
+                break;
         }
 
         if (item_value.match(pattern) && item_value !== '' ) {
@@ -78,38 +78,45 @@ function validateInput(item) {
         document.getElementById("selector").innerHTML = "Share Line";    
     };
     
-    $("#quotesorshareline .add_shortcode").on("click", addShortcode1);
+    $("#quotesorshareline .add_shortcode").on("click", insertShortcode1);
 
-    function addShortcode1() {
+    function insertShortcode1() {
 
         // TODO - this is basic output from the form
-        var shortcode = $("#quotesorshareline form").serialize();
+        var sharelineshortcode = $("#quotesorshareline form.shareline").serialize();
+        var quoteshortcode = $("#quotesorshareline form.quote").serialize();
         var linktype = $('.modal .dropdown-toggle').text();
-        if (linktype==="Share Line") { 
-            if ($("input.shareline").val().length == 0) {
-                $("#puma").text("All text fields are required");
-            }
-            else {
-                $("#comment").text(shortcode);
-                console.log("adding shortcode for Quotes1: " + shortcode);
+        switch(linktype) {
+            case "Share Line":
+                if ($(".modal input.shareline").val().length == 0) {
+                    alert("All text fields are required");
+                }
 
-                // close the modal
-                $("#quotesorshareline .close-me").click();
-                console.log("closing modal");            
-            }
-        }
-        else if ($("#author").val().length == 0 || $("#authordescription").val().length == 0 || $(".quotetext").val().length == 0) {
-            $("#puma").text("All text fields are required");
-        }
-        else {
-            $("#comment").text(shortcode);
-            console.log("adding shortcode for Quotes1: " + shortcode);
+                else {
+                    $("#comment").text(sharelineshortcode);
+                    console.log("adding shortcode for Quotes1: " + sharelineshortcode);
 
-            // close the modal
-            $("#quotesorshareline .close-me").click();
-            console.log("closing modal");
+                    // close the modal
+                    $("#quotesorshareline .close-me").click();
+                    console.log("closing modal"); 
+          
+                }
+                break;
+            case "Quote":
+                if ($("#author").val().length == 0 || $("#authordescription").val().length == 0 || $(".quotetext").val().length == 0) {
+                    alert("All text fields are required");
+                }
+                else {
+                    $("#comment").text(quoteshortcode);
+                    console.log("adding shortcode for Quotes1: " + quoteshortcode);
 
-        }
+                    // close the modal
+                    $("#quotesorshareline .close-me").click();
+                    console.log("closing modal");   
+                }
+                break;
+            }          
+
     };
 
 
@@ -119,7 +126,7 @@ function validateInput(item) {
         var html = "",
             count = $("#quotesorshareline input").length-2;
             
-        html +='<div class="form-group shareline cheetah has-error">'
+        html +='<div class="form-group shareline cheetah">'
         html +='  <label for="caption">Share Line ' + count + '</label>'
         html +='  <input type="text" class="form-control shareline" name="shareline' + count + '" placeholder="Type/paste Share Line here!" style="width:90%" maxlength="150" required>'
         html +='</div>'
@@ -132,8 +139,18 @@ function validateInput(item) {
     $(".remove").on("click", removeShareline)
     
     function removeShareline() {
-        $(".cheetah:last-child").remove();
-        var count = $("#quotesorshareline input").length-2;
+        var count = $("#quotesorshareline input").length-3;
+        switch (count) {
+            case 2:
+                $(".remove").hide();
+                $(".cheetah:last-child").remove();
+                break;
+            default:
+                $(".cheetah:last-child").remove();
+                break;
+        }
+        
+
         console.log("Removing line " + count)
      };
 
