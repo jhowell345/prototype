@@ -18,7 +18,7 @@ $(document).ready(function() {
 
 	$("#countdown .add_shortcode").on("click", addCountShortcode);
     
-   function addCountShortcode() {
+    function addCountShortcode() {
 
     // TODO - this is basic output from the form
     var shortcode = $("#countdown form").serialize();
@@ -28,6 +28,28 @@ $(document).ready(function() {
     // close the modal
     $("#countdown .close-me").click();
     console.log("closing modal")
-    }
+    };
+
+    $(".countdowntext").on("keyup blur", function() {
+        validateInput3(this);
+    });
+
+    function validateInput3(item) {
+
+        var pattern = '',
+            item_value = $(item).val();
+
+
+        if (item_value.match(pattern) && item_value !== '') {
+
+            $(item).parent('.form-group').removeClass('has-error');
+            $(item).parent('.form-group').addClass('has-success');
+        } else {
+
+            $(item).parent('.form-group').addClass('has-error');
+            $(item).parent('.form-group').removeClass('has-success');
+        }
+    };
+
 
  });
