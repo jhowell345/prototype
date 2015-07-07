@@ -74,7 +74,7 @@ function validateInput(item) {
         $(".reveal").show();
         $(".quote").hide();
         $(".shareline").show();
-        $(".remove").hide();
+        $(".remove_shareline").hide();
         document.getElementById("selector").innerHTML = "Share Line";    
     };
     
@@ -130,19 +130,19 @@ function validateInput(item) {
         html +='  <label for="caption">Share Line ' + count + '</label>'
         html +='  <input type="text" class="form-control shareline" name="shareline' + count + '" placeholder="Type/paste Share Line here!" style="width:90%" maxlength="150" required>'
         html +='</div>'
-        $(".remove").show()
+        $(".remove_shareline").show()
         $("#quotesorshareline .form-group:last").after(html);
 
         console.log("Adding line " + count);
     };
 
-    $(".remove").on("click", removeShareline)
+    $(".remove_shareline").on("click", removeShareline)
     
     function removeShareline() {
         var count = $("#quotesorshareline input").length-3;
         switch (count) {
             case 2:
-                $(".remove").hide();
+                $(".remove_shareline").hide();
                 $(".cheetah:last-child").remove();
                 break;
             default:

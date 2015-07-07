@@ -10,6 +10,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -104,7 +105,7 @@
               <!-- This section is hidden until user selects quote or share line -->
               <div class="reveal shareline"> 
 
-               <p class="note shareline">NOTE: max 150 character per Share Line</p>
+               <p class="note shareline">NOTE: max 150 character per Share Line. All text fields required</p>
 
                 <form class="shareline">
                   <div class="form-group shareline cheetah">
@@ -120,7 +121,7 @@
             </div>
             <br>
             <div class="modal-footer">
-              <button type="button" class="btn btn-danger reveal shareline remove">Remove Shareline
+              <button type="button" class="btn btn-danger reveal shareline remove_shareline">Remove Shareline
               <button type="button" class="btn btn-success add_new_line reveal shareline">Add</button>
               <button type="button" class="btn btn-primary add_shortcode reveal">Insert Shortcode</button>
               <button type="button" class="btn btn-default close-me" data-dismiss="modal">Close</button>
@@ -148,17 +149,12 @@
             <form>
                 <div class="col-sm-3">
                   <h5>Columns</h5>
-                  <select name="Columns" style="font-size:24px">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                  </select>
+                  <input type="text" class="form-control" style="height:24px ; width:50px ; text-align:center" value="1" data-min="1">
                 </div>
 
                 <div class="col-sm-3">
                   <h5> Hide Captions</h5>
-                  <select name="yesorno" style="font-size:24px">
+                  <select class="form-control" name="yesorno" style="font-size:14px; height:24px ; width:80px">
                     <option value="yes">Yes</option>
                     <option value="no">No</option>
                   </select>
@@ -172,14 +168,14 @@
 
                 <h5> Instagram URL 1</h5>
                 <div class="form-group cobra">
-                  <input type="text" class="form-control" name="shareline" placeholder="Type/paste Instagram URL here!" style="width:90%" maxlength="150" required>
+                  <input type="text" class="form-control url" name="url" placeholder="Type/paste Instagram URL here!" style="width:90%" maxlength="150" required>
                 </div>
               </form>
             </div>
             <br>
 
             <div class="modal-footer">
-                <button type="button" class="btn btn-danger remove">Remove URL</button>
+                <button type="button" class="btn btn-danger remove_url">Remove URL</button>
                 <button type="button" class="btn btn-success add_new_line">Add</button>
                 <button type="button" class="btn btn-primary add_shortcode">Insert Shortcode</button>
                 <button type="button" class="btn btn-default close-me" data-dismiss="modal">Close</button>
