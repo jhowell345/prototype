@@ -7,26 +7,132 @@ TASK:  build catousel based on the FOOD mocks using slick and data from http://a
 <html>
 <head>
     <title>FOOD Prototype</title>
+    <meta charset="utf-8">
 
-    <link href="css/food_carousel.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  	<link rel="stylesheet", href="css/food_carousel.css"/>
+
 </head>
 <body>
+	<header>
+		<h1>10 Best Easter Desserts</h1>
+	</header>
+	<br/><br/>
+
+	<div class="my_slick">
+
+	  <ul>
+	    <li>
+	      <img src="http://o.aolcdn.com/hss/storage/midas/9891d945d8dcc31684acf10d0f3b4dc1/201842814/apricot-and-basil-shortbread-tart_456x342_0-jpg" alt="Shortbread Tart" />
+	      <div>
+	        <h2>1. Apricot and Basil Shortbread tart</h2>
+	      </div>
+	    </li>
+
+	    <li>
+	    	<img src="http://o.aolcdn.com/hss/storage/midas/169dc9ccf3f30a7346eb06d3445c776e/201842828/0_intro-ice-cream-istock-thinkstock-177017190-copy-jpg" alt= "Ice Cream">
+	    	<div>
+	    		<h2>2. Ice Cream</h2>
+	    	</div>
+    	</li>
+			<li>
+				<img src="http://s3.amazonaws.com/gmi-digital-library/3cf7cb34-8f77-4885-bfec-697f96dd5d61.jpg">
+				<div>
+					<h2>3. Apple Pie</h2>
+				</div>
+			</li> 
+			<li>
+				<img src="http://www.relativetaste.net/wp-content/uploads/2014/08/Brownie-sundae-001.jpg">
+				<div>
+					<h2>4. Brownie Sundae</h2>
+				</div>
+			</li> 
+			<li>
+				<img src="http://assets.kitchendaily.com/styles/large/s3/field/image/carrot-cake-cookies-3.jpg?itok=_ywzPMVS">
+				<div>
+					<h2>5. Carrot Cake Cookies</h2>
+				</div>
+			</li>
+			<li>
+				<img src="http://assets.kitchendaily.com/styles/large/s3/field/image/HipFoodieMom_almondbriochestickybuns-2.jpg?itok=ZcFpSZMp">
+				<div>
+					<h2>6. Almond Brioche Sticky Buns</h2>
+				</div>
+			</li>
+			<li>
+				<img src="http://assets.kitchendaily.com/styles/large/s3/field/image/Carrie's%20Kitchen%20Carrot%20Bunny%20Cake%20with%20Cream%20Cheese%20Frosting_0.jpg?itok=gD1dUfrU">
+				<div>
+					<h2>7. Carrot Cake Easter Bunny Cake</h2>
+				</div>
+			</li>
+			<li>
+				<img src="http://assets.kitchendaily.com/styles/large/s3/field/image/ChocolateMacaroonNests-1.jpg?itok=oAB2TFAo">
+				<div>
+					<h2>8. Chocolate Macaroon Nests</h2>
+				</div>
+			</li>
+			<li>
+				<img src="http://assets.kitchendaily.com/styles/large/s3/field/image/cadbury-egg-doughnuts_456X342-2.jpg?itok=F1j7M-bk">
+				<div>
+					<h2>9. Cadbury Egg Doughnuts</h2>
+				</div>
+			</li>
+			<li>
+				<img src="http://assets.kitchendaily.com/styles/large/s3/field/image/HawaiianCookieBalls-1.jpg?itok=SmHLEGPg">
+				<div>
+					<h2>10. Hawaiian Cookie Balls</h2>
+				</div>
+			</li>  	
+	  </ul>
+
+	</div>
+
+<!-- This is the nav slideshow below ((SMALLER)) -->
+<div class="my_slick-nav">
+
+	  <ul>
+	    <li>
+	      <img src="http://o.aolcdn.com/hss/storage/midas/9891d945d8dcc31684acf10d0f3b4dc1/201842814/apricot-and-basil-shortbread-tart_456x342_0-jpg" alt="Shortbread Tart" />
+	 
+	    </li>
+
+	    <li>
+	    	<img src="http://o.aolcdn.com/hss/storage/midas/169dc9ccf3f30a7346eb06d3445c776e/201842828/0_intro-ice-cream-istock-thinkstock-177017190-copy-jpg" alt= "Ice Cream">
+	
+    	</li>
+			<li>
+				<img src="http://s3.amazonaws.com/gmi-digital-library/3cf7cb34-8f77-4885-bfec-697f96dd5d61.jpg">
+			</li> 
+			<li>
+				<img src="http://www.relativetaste.net/wp-content/uploads/2014/08/Brownie-sundae-001.jpg">
+			</li> 
+			<li>
+				<img src="http://assets.kitchendaily.com/styles/large/s3/field/image/carrot-cake-cookies-3.jpg?itok=_ywzPMVS">
+			</li>
+			<li>
+				<img src="http://assets.kitchendaily.com/styles/large/s3/field/image/HipFoodieMom_almondbriochestickybuns-2.jpg?itok=ZcFpSZMp">
+			</li>
+			<li>
+				<img src="http://assets.kitchendaily.com/styles/large/s3/field/image/Carrie's%20Kitchen%20Carrot%20Bunny%20Cake%20with%20Cream%20Cheese%20Frosting_0.jpg?itok=gD1dUfrU">
+			</li>
+			<li>
+				<img src="http://assets.kitchendaily.com/styles/large/s3/field/image/ChocolateMacaroonNests-1.jpg?itok=oAB2TFAo">
+			</li>
+			<li>
+				<img src="http://assets.kitchendaily.com/styles/large/s3/field/image/cadbury-egg-doughnuts_456X342-2.jpg?itok=F1j7M-bk">
+			</li>
+			<li>
+				<img src="http://assets.kitchendaily.com/styles/large/s3/field/image/HawaiianCookieBalls-1.jpg?itok=SmHLEGPg">
+			</li>  	
+	  </ul>
+
+	</div>
 
 
-<div class="my_slick">
-
-    <ul>
-        <li>
-            <img src="http://placehold.it/280x297" alt="TITLE">
-            <div>
-                <h2>TITLE</h2>
-            </div>
-        </li>
-    </ul>
-
-</div>
-
-
-<!-- TODO - add jquery, slick -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/custom_food_carousel.js"></script>
 </body>
 </html>

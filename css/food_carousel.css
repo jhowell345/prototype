@@ -1,4 +1,42 @@
-body {
-    background-color: red;
+/*Custom Food Carousel CSS*/
+header {
+	background-color: LawnGreen;
+	text-align: center;
+	color: red;
+	border: 7px;
+	border-style: solid;
+	border-color: red;
+	margin: 0;
+	padding: 15px;
 
+
+}
+body {
+    background-color: PaleTurquoise;
+
+}
+
+.my_slick ul li img {
+	width: 550px;
+	height: 350px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.my_slick-nav ul li img{
+	width: 150px;
+	height: 90px;
+
+}
+.my_slick {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div h2 {
+	text-align: center;
+	font-family: serif;
+	color: red;
 }
