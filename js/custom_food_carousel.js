@@ -7,11 +7,12 @@ $(document).ready(function(){
 		swipe: true,
 		touchMove: true,
 		arrows: true,
-		asNavFor: '.my_slick-nav ul'
+		asNavFor: '.my_slick-nav ul',
+		accessibility: true
 	});
 
 	$('.my_slick-nav ul').slick({
-		slidesToShow: 3,
+		slidestoShow: 3,
 		slidesToScroll:1,
 		asNavFor: '.my_slick ul',
 		dots: true,

@@ -27,10 +27,17 @@ body {
 .my_slick-nav ul li img{
 	width: 150px;
 	height: 90px;
+	margin-left: auto;
+	margin-right: auto;
 
 }
 .my_slick {
 	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.my_slick-nav {
+	width: 40%;
 	margin-left: auto;
 	margin-right: auto;
 }
